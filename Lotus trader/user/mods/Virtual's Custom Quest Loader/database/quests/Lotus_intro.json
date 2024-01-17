@@ -1,0 +1,247 @@
+{
+  "Lotus_intro": {
+    "QuestName": "New contacts",
+    "_id": "Lotus_intro",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",	
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_intro_AFF_0_0",
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "Lotus_intro_AFF_0_1",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_intro_AFF_0_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_intro_AFF_0",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_intro_AFF_1_0",
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "Lotus_intro_AFF_1_1",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_intro_AFF_1_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_intro_AFF_1",
+            "index": 1,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_intro_AFF_2_0",
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "Lotus_intro_AFF_2_1",
+                    "target": [
+                      "factory4_day",
+                      "factory4_night"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_intro_AFF_2_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_intro_AFF_2",
+            "index": 2,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_intro_AFF_3_0",
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "Lotus_intro_AFF_3_1",
+                    "target": [
+                      "Interchange"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_intro_AFF_3_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_intro_AFF_3",
+            "index": 3,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_intro_start0",
+            "index": 0,
+            "parentId": "",
+            "value": 10,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_intro description",
+    "image": "/files/quest/icon/lotus_newcontact.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Lotus_intro name",
+    "note": "",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "lotus_intro_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "11386"
+        },
+		        {
+          "id": "lotus_intro_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.04"
+        },
+        {
+          "findInRaid": false,
+          "id": "lotus_intro_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "lotus_intro_reward2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 26379
+              }
+            }
+          ],
+          "target": "lotus_intro_reward2_0",
+          "type": "Item",
+          "value": "26379"
+        },
+	{
+          "id": "lotus_intro_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "ammocase",
+              "_tpl": "5aafbde786f774389d0cbc0f"
+            }
+          ],
+          "loyaltyLevel": 1,
+          "target": "ammocase",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_intro startedMessageText",
+    "successMessageText": "Lotus_intro successMessageText",
+    "templateId": "Lotus_intro",
+    "traderId": "lotus",
+    "type": "Elimination"
+  }
+}

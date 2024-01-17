@@ -1,0 +1,1297 @@
+{
+  "Lotus_Pokloneniye1": {
+    "QuestName": "Pokloneniye - part 1",
+    "_id": "Lotus_Pokloneniye1",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",	
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_Pokloneniye1_AFF_0_0",
+                     "savageRole": [
+                      "sectantWarrior"
+                    ],
+                   "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "Lotus_Pokloneniye1_AFF_0_1",
+                    "target": [
+                      "Woods"
+                    ]
+                  }
+                }				
+              ],
+              "id": "Lotus_Pokloneniye1_AFF_0_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye1_AFF_0",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "4",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_Pokloneniye1_AFF_1_0",
+                     "savageRole": [
+                      "sectantPriest"
+                    ],
+                   "target": "Savage",
+                    "value": "1"
+                  }
+                },
+               {
+                  "_parent": "Location",
+                  "_props": {
+                    "id": "Lotus_Pokloneniye1_AFF_0_1",
+                    "target": [
+                      "Woods"
+                    ]
+                  }
+                }				
+              ],
+              "id": "Lotus_Pokloneniye1_AFF_1_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye1_AFF_1",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }			
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye1_start0",
+            "index": 0,
+            "parentId": "",
+            "value": 25,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye1_start1",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_trainedwarriorsneak",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_Pokloneniye1 description",
+    "failMessageText": "Lotus_Pokloneniye1 failMessageText",
+    "image": "/files/quest/icon/lotus_pokloneniye1.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e3c2d2720bac5b8b4567",
+    "name": "Lotus_Pokloneniye1 name",
+    "note": "",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "Lotus_Pokloneniye1_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "29930"
+        },
+		        {
+          "id": "Lotus_Pokloneniye1_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.05"
+        },
+        {
+          "findInRaid": true,
+          "id": "Lotus_Pokloneniye1_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Lotus_Pokloneniye1_reward2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 44497
+              }
+            }
+          ],
+          "target": "Lotus_Pokloneniye1_reward2_0",
+          "type": "Item",
+          "value": "44497"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_Pokloneniye1_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "Lotus_Pokloneniye1_reward3_0",
+              "_tpl": "637b6251104668754b72f8f9",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "Lotus_Pokloneniye1_reward3_0",
+          "type": "Item",
+          "value": "3"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_Pokloneniye1_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "Lotus_Pokloneniye1_reward4_0",
+              "_tpl": "5df8a42886f77412640e2e75",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "Lotus_Pokloneniye1_reward4_0",
+          "type": "Item",
+          "value": "1"
+        },		
+        {
+          "findInRaid": false,
+          "id": "Lotus_Pokloneniye1_reward5",
+          "index": 5,
+          "items": [
+            {
+              "_id": "486553ac245dbf7588995e37",
+              "_tpl": "5fbcc1d9016cce60e8341ab3",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+    {
+      "_id": "9cccad7a0166e90d49021ae7",
+      "_tpl": "57c55efc2459772d2c6271e7",
+      "parentId": "486553ac245dbf7588995e37",
+      "slotId": "mod_pistol_grip"
+    },
+    {
+      "_id": "6f0eaa9392277f171fb536a5",
+      "_tpl": "59c1383d86f774290a37e0ca",
+      "parentId": "486553ac245dbf7588995e37",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "4483c6ecc0c31d8081c97f8c",
+      "_tpl": "5fbcc3e4d6fa9c00c571bb58",
+      "parentId": "486553ac245dbf7588995e37",
+      "slotId": "mod_reciever"
+    },
+    {
+      "_id": "187196a7235a6670d37baa43",
+      "_tpl": "5c5db6ee2e221600113fba54",
+      "parentId": "486553ac245dbf7588995e37",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "5a5d1047bc24b0d152c551a8",
+      "_tpl": "5fbcc640016cce60e8341acc",
+      "parentId": "486553ac245dbf7588995e37",
+      "slotId": "mod_charge"
+    },
+    {
+      "_id": "6f3e21208905997b74a788e6",
+      "_tpl": "5c07dd120db834001c39092d",
+      "parentId": "4483c6ecc0c31d8081c97f8c",
+      "slotId": "mod_scope",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "f7f56ac03b022bdfc8fa6a88",
+      "_tpl": "5fbbfacda56d053a3543f799",
+      "parentId": "4483c6ecc0c31d8081c97f8c",
+      "slotId": "mod_barrel"
+    },
+    {
+      "_id": "3a50d53c560d94b0d19f2829",
+      "_tpl": "5fbc227aa56d053a3543f79e",
+      "parentId": "4483c6ecc0c31d8081c97f8c",
+      "slotId": "mod_handguard"
+    },
+    {
+      "_id": "c69e5a20c821ebf191ee43e1",
+      "_tpl": "5dfa3d7ac41b2312ea33362a",
+      "parentId": "4483c6ecc0c31d8081c97f8c",
+      "slotId": "mod_sight_rear",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "bd415e9f8455168da2608e5b",
+      "_tpl": "5fbc22ccf24b94483f726483",
+      "parentId": "f7f56ac03b022bdfc8fa6a88",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "4e3b2a839814406b1a091476",
+      "_tpl": "5fbc210bf24b94483f726481",
+      "parentId": "f7f56ac03b022bdfc8fa6a88",
+      "slotId": "mod_gas_block"
+    },
+    {
+      "_id": "698aacb82e2c669e47de6957",
+      "_tpl": "5a9d6d00a2750c5c985b5305",
+      "parentId": "3a50d53c560d94b0d19f2829",
+      "slotId": "mod_mount_000"
+    },
+    {
+      "_id": "0d5cdc297f669ea1d6121bc3",
+      "_tpl": "5a9d6d00a2750c5c985b5305",
+      "parentId": "3a50d53c560d94b0d19f2829",
+      "slotId": "mod_mount_001"
+    },
+    {
+      "_id": "a0b0d67b702aa6f22ef8da84",
+      "_tpl": "5dfa3d950dee1b22f862eae0",
+      "parentId": "3a50d53c560d94b0d19f2829",
+      "slotId": "mod_sight_front",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "7680676d2fda4e5fb18b125f",
+      "_tpl": "5fbcbd10ab884124df0cd563",
+      "parentId": "bd415e9f8455168da2608e5b",
+      "slotId": "mod_muzzle_000"
+    },
+    {
+      "_id": "6c5e4b8e6ec2ac7654702fcd",
+      "_tpl": "5fbe760793164a5b6278efc8",
+      "parentId": "bd415e9f8455168da2608e5b",
+      "slotId": "mod_muzzle_001"
+    }			
+          ],
+          "target": "486553ac245dbf7588995e37",
+          "type": "Item",
+          "value": "1"
+        }			
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_Pokloneniye1 startedMessageText",
+    "successMessageText": "Lotus_Pokloneniye1 successMessageText",
+    "templateId": "Lotus_Pokloneniye1",
+    "traderId": "lotus",
+    "type": "Elimination"
+  },
+  "Lotus_Pokloneniye2": {
+    "QuestName": "Pokloneniye - part 2",
+    "_id": "Lotus_Pokloneniye2",
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye2_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "6176a48d732a664031271438"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye2_AFF_1",
+            "index": 1,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "6176a48d732a664031271438"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye2_AFF_2",
+            "index": 0,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5bd06f5d86f77427101ad47c"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye2_AFF_3",
+            "index": 3,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5bd06f5d86f77427101ad47c"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye2_AFF_4",
+            "index": 4,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5bd0716d86f774171822ef4b"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye2_AFF_5",
+            "index": 5,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5bd0716d86f774171822ef4b"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye2_AFF_6",
+            "index": 6,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "6176a40f0b8c0312ac75a3d3"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye2_AFF_7",
+            "index": 7,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "6176a40f0b8c0312ac75a3d3"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye2_AFF_8",
+            "index": 8,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5e54f79686f7744022011103"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye2_AFF_9",
+            "index": 9,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5e54f79686f7744022011103"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "FindItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye2_AFF_10",
+            "index": 10,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5fc64ea372b0dd78d51159dc"
+            ],
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye2_AFF_11",
+            "index": 11,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5fc64ea372b0dd78d51159dc"
+            ],
+            "value": "5",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye2_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_Pokloneniye1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_Pokloneniye2 description",
+    "failMessageText": "Lotus_Pokloneniye2 failMessageText",
+    "image": "/files/quest/icon/lotus_pokloneniye2.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Lotus_Pokloneniye2 name",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Lotus_Pokloneniye2_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "17459"
+        },
+        {
+          "id": "Lotus_Pokloneniye2_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.03"
+        },		
+        {
+          "findInRaid": true,
+          "id": "Lotus_Pokloneniye2_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Lotus_Pokloneniye2_reward2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 21983
+              }
+            }
+          ],
+          "target": "Lotus_Pokloneniye2_reward2_0",
+          "type": "Item",
+          "value": "21983"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_Pokloneniye2_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "Lotus_Pokloneniye2_reward3_0",
+              "_tpl": "603409c80ca681766b6a0fb2",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "Lotus_Pokloneniye2_reward3_0",
+          "type": "Item",
+          "value": "3"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_Pokloneniye2_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "Lotus_Pokloneniye2_reward4_0",
+              "_tpl": "5b40e1525acfc4771e1c6611",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "Lotus_Pokloneniye2_reward4_0",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_Pokloneniye2_reward5",
+          "index": 5,
+          "items": [
+            {
+              "_id": "Lotus_Pokloneniye2_reward5_0",
+              "_tpl": "5d1b327086f7742525194449",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "Lotus_Pokloneniye2_reward5_0",
+          "type": "Item",
+          "value": "2"
+        },
+		{
+          "id": "Lotus_Pokloneniye2_reward6",
+          "index": 6,
+          "items": [
+            {
+              "_id": "hexgridbarter",
+              "_tpl": "5fd4c474dd870108a754b241"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "hexgridbarter",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_Pokloneniye2 startedMessageText",
+    "successMessageText": "Lotus_Pokloneniye2 successMessageText",
+    "templateId": "Lotus_Pokloneniye2",
+    "traderId": "lotus",
+    "type": "PickUp"
+  },
+  "Lotus_Pokloneniye3": {
+    "QuestName": "Pokloneniye - part 3",
+    "_id": "Lotus_Pokloneniye3",
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye3_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5780cf7f2459777de4559322"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye3_AFF_1",
+            "index": 1,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5d80c60f86f77440373c4ece"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye3_AFF_2",
+            "index": 0,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5ede7a8229445733cb4c18e2"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye3_AFF_3",
+            "index": 3,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5d80c62a86f7744036212b3f"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye3_AFF_4",
+            "index": 4,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "62987dfc402c7f69bf010923"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye3_AFF_5",
+            "index": 5,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "63a3a93f8a56922e82001f5d"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye3_AFF_6",
+            "index": 6,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "64ccc25f95763a1ae376e447"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye3_AFF_7",
+            "index": 7,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "64d4b23dc1b37504b41ac2b6"
+            ],
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_Pokloneniye3_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_Pokloneniye2",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_Pokloneniye3 description",
+    "failMessageText": "Lotus_Pokloneniye3 failMessageText",
+    "image": "/files/quest/icon/lotus_pokloneniye3.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Lotus_Pokloneniye3 name",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Lotus_Pokloneniye3_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "35692"
+        },
+        {
+          "id": "Lotus_Pokloneniye3_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.05"
+        },		
+        {
+          "findInRaid": true,
+          "id": "Lotus_Pokloneniye3_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Lotus_Pokloneniye3_reward2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 98203
+              }
+            }
+          ],
+          "target": "Lotus_Pokloneniye3_reward2_0",
+          "type": "Item",
+          "value": "98203"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_Pokloneniye3_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "Lotus_Pokloneniye3_reward3_0",
+              "_tpl": "5d1b2ffd86f77425243e8d17",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "Lotus_Pokloneniye3_reward3_0",
+          "type": "Item",
+          "value": "3"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_Pokloneniye3_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "354ab4dd0624e680cf8b94b9",
+              "_tpl": "5447a9cd4bdc2dbd208b4567",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+    {
+      "_id": "640575d827b9ae5a05701d86",
+      "_tpl": "6113cce3d92c473c770200c7",
+      "parentId": "354ab4dd0624e680cf8b94b9",
+      "slotId": "mod_pistol_grip"
+    },
+    {
+      "_id": "d15c3fac6913e65829209845",
+      "_tpl": "5c6d46132e221601da357d56",
+      "parentId": "354ab4dd0624e680cf8b94b9",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "8090c4206848a9aeb13fdfc3",
+      "_tpl": "55d355e64bdc2d962f8b4569",
+      "parentId": "354ab4dd0624e680cf8b94b9",
+      "slotId": "mod_reciever"
+    },
+    {
+      "_id": "1b8d348b07ae1186d8f25254",
+      "_tpl": "5649be884bdc2d79388b4577",
+      "parentId": "354ab4dd0624e680cf8b94b9",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "d49fd42526e1fb4df9fd8a62",
+      "_tpl": "5d44334ba4b9362b346d1948",
+      "parentId": "354ab4dd0624e680cf8b94b9",
+      "slotId": "mod_charge"
+    },
+    {
+      "_id": "137ba9adc3ea6e5a48ef7df1",
+      "_tpl": "55d35ee94bdc2d61338b4568",
+      "parentId": "8090c4206848a9aeb13fdfc3",
+      "slotId": "mod_barrel"
+    },
+    {
+      "_id": "f5fe033318d0b6f84a11e2a4",
+      "_tpl": "5c78f2612e221600114c9f0d",
+      "parentId": "8090c4206848a9aeb13fdfc3",
+      "slotId": "mod_handguard"
+    },
+    {
+      "_id": "72229ee03e6117a334f1968b",
+      "_tpl": "5fb6564947ce63734e3fa1da",
+      "parentId": "8090c4206848a9aeb13fdfc3",
+      "slotId": "mod_sight_rear",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "40dd540aea8c61df76a7b689",
+      "_tpl": "602e620f9b513876d4338d9a",
+      "parentId": "1b8d348b07ae1186d8f25254",
+      "slotId": "mod_stock_000"
+    },
+    {
+      "_id": "07bdec0c1a2d3234311d25d9",
+      "_tpl": "56ea8180d2720bf2698b456a",
+      "parentId": "137ba9adc3ea6e5a48ef7df1",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "2a4ed77e434cd2cf63516bed",
+      "_tpl": "56eabcd4d2720b66698b4574",
+      "parentId": "137ba9adc3ea6e5a48ef7df1",
+      "slotId": "mod_gas_block"
+    },
+    {
+      "_id": "bf261ef520f7250665214415",
+      "_tpl": "5fb6567747ce63734e3fa1dc",
+      "parentId": "f5fe033318d0b6f84a11e2a4",
+      "slotId": "mod_sight_front",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "92f19ea0336dd8b413831c17",
+      "_tpl": "5c78f2882e22165df16b832e",
+      "parentId": "f5fe033318d0b6f84a11e2a4",
+      "slotId": "mod_muzzle"
+    }			
+          ],
+          "target": "354ab4dd0624e680cf8b94b9",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_Pokloneniye3_reward5",
+          "index": 5,
+          "items": [
+            {
+              "_id": "9cc62ae52cf33e83b4c6cf11",
+              "_tpl": "6183afd850224f204c1da514",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+    {
+      "_id": "c61cda4070bd19ede104cb39",
+      "_tpl": "57c55efc2459772d2c6271e7",
+      "parentId": "9cc62ae52cf33e83b4c6cf11",
+      "slotId": "mod_pistol_grip"
+    },
+    {
+      "_id": "c17e5b284a0bf1c397fb46a8",
+      "_tpl": "618168dc8004cc50514c34fc",
+      "parentId": "9cc62ae52cf33e83b4c6cf11",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "09067bb2c3325cee279171df",
+      "_tpl": "6165aeedfaa1272e431521e3",
+      "parentId": "9cc62ae52cf33e83b4c6cf11",
+      "slotId": "mod_reciever"
+    },
+    {
+      "_id": "a0f4ae5136360c7bc31a0668",
+      "_tpl": "61816734d8e3106d9806c1f3",
+      "parentId": "9cc62ae52cf33e83b4c6cf11",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "2794135462d7f599be6f0172",
+      "_tpl": "6181688c6c780c1e710c9b04",
+      "parentId": "9cc62ae52cf33e83b4c6cf11",
+      "slotId": "mod_charge"
+    },
+    {
+      "_id": "d33837c13583a4824bfd12a2",
+      "_tpl": "558022b54bdc2dac148b458d",
+      "parentId": "09067bb2c3325cee279171df",
+      "slotId": "mod_scope",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "948b6b9b53aea09363b8b74e",
+      "_tpl": "6183b0711cb55961fa0fdcad",
+      "parentId": "09067bb2c3325cee279171df",
+      "slotId": "mod_barrel"
+    },
+    {
+      "_id": "fa4eaca05e04bdf45b3aa9dc",
+      "_tpl": "5bc09a18d4351e003562b68e",
+      "parentId": "09067bb2c3325cee279171df",
+      "slotId": "mod_sight_rear",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "f8361b2134a418eaa75338c7",
+      "_tpl": "5bc09a30d4351e00367fb7c8",
+      "parentId": "09067bb2c3325cee279171df",
+      "slotId": "mod_sight_front",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "b703adffbc326e165a72b7b2",
+      "_tpl": "61816df1d3a39d50044c139e",
+      "parentId": "09067bb2c3325cee279171df",
+      "slotId": "mod_mount_000"
+    },
+    {
+      "_id": "c6d505bfb410f762a8b0ecd8",
+      "_tpl": "61816dfa6ef05c2ce828f1ad",
+      "parentId": "09067bb2c3325cee279171df",
+      "slotId": "mod_mount_001"
+    },
+    {
+      "_id": "636528c203ea6da6212d58d0",
+      "_tpl": "618167528004cc50514c34f9",
+      "parentId": "a0f4ae5136360c7bc31a0668",
+      "slotId": "mod_stock_001"
+    },
+    {
+      "_id": "6f9accfa725eacccd1d66e43",
+      "_tpl": "61825d24d3a39d50044c13af",
+      "parentId": "a0f4ae5136360c7bc31a0668",
+      "slotId": "mod_stock_002"
+    },
+    {
+      "_id": "b86afca8d9953309fcc4c52b",
+      "_tpl": "5dfa3cd1b33c0951220c079b",
+      "parentId": "948b6b9b53aea09363b8b74e",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "03d7119339538adaafa7bb87",
+      "_tpl": "59f8a37386f7747af3328f06",
+      "parentId": "b703adffbc326e165a72b7b2",
+      "slotId": "mod_foregrip"
+    },
+    {
+      "_id": "ce0882db3f86357f692cda37",
+      "_tpl": "61965d9058ef8c428c287e0d",
+      "parentId": "b703adffbc326e165a72b7b2",
+      "slotId": "mod_mount"
+    },
+    {
+      "_id": "5b23b2ed01134c57f2627134",
+      "_tpl": "618167616ef05c2ce828f1a8",
+      "parentId": "636528c203ea6da6212d58d0",
+      "slotId": "mod_stock"
+    }			
+          ],
+          "target": "9cc62ae52cf33e83b4c6cf11",
+          "type": "Item",
+          "value": "1"
+        },
+		{
+          "id": "Lotus_Pokloneniye3_reward6",
+          "index": 6,
+          "items": [
+            {
+              "_id": "mppv",
+              "_tpl": "5df8a42886f77412640e2e75"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "mppv",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_Pokloneniye3 startedMessageText",
+    "successMessageText": "Lotus_Pokloneniye3 successMessageText",
+    "templateId": "Lotus_Pokloneniye3",
+    "traderId": "lotus",
+    "type": "PickUp"
+  }	
+}

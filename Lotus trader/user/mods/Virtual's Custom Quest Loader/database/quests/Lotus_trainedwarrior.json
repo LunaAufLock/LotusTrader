@@ -1,0 +1,1226 @@
+{
+  "Lotus_trainedwarriorcombat": {
+    "QuestName": "Trained warrior - combat skills",
+    "_id": "Lotus_trainedwarriorcombat",
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorcombat_AFF_0",
+            "index": 0,
+            "parentId": "",
+            "target": "AimDrills",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorcombat_AFF_1",
+            "index": 1,
+            "parentId": "",
+            "target": "MagDrills",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorcombat_AFF_2",
+            "index": 2,
+            "parentId": "",
+            "target": "RecoilControl",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorcombat_AFF_3",
+            "index": 3,
+            "parentId": "",
+            "target": "StressResistance",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorcombat_start0",
+            "index": 0,
+            "parentId": "",
+            "value": 15,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorcombat_start1",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ruafinfiltrator1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_trainedwarriorcombat description",
+    "failMessageText": "Lotus_trainedwarriorcombat failMessageText",
+    "image": "/files/quest/icon/lotus_trainedwarriorcombatskills.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Lotus_trainedwarriorcombat name",
+    "note": "",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Lotus_trainedwarriorcombat_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "17192"
+        },
+       {
+          "id": "Lotus_trainedwarriorcombat_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.02"
+        },		
+        {
+          "findInRaid": true,
+          "id": "Lotus_trainedwarriorcombat_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorcombat_reward2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 10932
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorcombat_reward2_0",
+          "type": "Item",
+          "value": "10932"
+        },		
+        {
+          "findInRaid": false,
+          "id": "Lotus_trainedwarriorcombat_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorcombat_reward3_0",
+              "_tpl": "5bffe7930db834001b734a39",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorcombat_reward3_0",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_trainedwarriorcombat_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorcombat_reward4_0",
+              "_tpl": "59d6272486f77466146386ff",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorcombat_reward4_0",
+          "type": "Item",
+          "value": "3"			
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_trainedwarriorcombat_reward5",
+          "index": 5,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorcombat_reward5_0",
+              "_tpl": "5656d7c34bdc2d9d198b4587",
+              "upd": {
+                "StackObjectsCount": 180
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorcombat_reward5_0",
+          "type": "Item",
+          "value": "180"			
+        },			
+       {
+          "findInRaid": false,
+          "id": "Lotus_trainedwarriorcombat_reward6",
+          "index": 8,
+          "items": [
+            {
+              "_id": "61c277a6d3fbb08daa85913c",
+              "_tpl": "5a0ec13bfcdbcb00165aa685",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+    {
+      "_id": "f2e995abd6ef18e5129e1af5",
+      "_tpl": "59d64ec286f774171d1e0a42",
+      "parentId": "61c277a6d3fbb08daa85913c",
+      "slotId": "mod_gas_block"
+    },
+    {
+      "_id": "31ff51935695da58a627f88f",
+      "_tpl": "5f633f68f5750b524b45f112",
+      "parentId": "61c277a6d3fbb08daa85913c",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "efea4debbb93edcac046725c",
+      "_tpl": "5b30ac585acfc433000eb79c",
+      "parentId": "61c277a6d3fbb08daa85913c",
+      "slotId": "mod_pistol_grip"
+    },
+    {
+      "_id": "65e94f1bef531dac827232ef",
+      "_tpl": "59d6507c86f7741b846413a2",
+      "parentId": "61c277a6d3fbb08daa85913c",
+      "slotId": "mod_reciever"
+    },
+    {
+      "_id": "55c7b7b7c70d8a59c10a9ccb",
+      "_tpl": "628a7b23b0f75035732dd565",
+      "parentId": "61c277a6d3fbb08daa85913c",
+      "slotId": "mod_sight_rear",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "ca1028963e3d31fc7c1837a4",
+      "_tpl": "5b0e794b5acfc47a877359b2",
+      "parentId": "61c277a6d3fbb08daa85913c",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "77123ec27917eb4617e1d1c5",
+      "_tpl": "59d6272486f77466146386ff",
+      "parentId": "61c277a6d3fbb08daa85913c",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "f35d5fc2ccecdcd317394c8e",
+      "_tpl": "5c9a07572e221644f31c4b32",
+      "parentId": "f2e995abd6ef18e5129e1af5",
+      "slotId": "mod_handguard"
+    },
+    {
+      "_id": "2cd1cd24d612e1942e483149",
+      "_tpl": "57cffb66245977632f391a99",
+      "parentId": "f35d5fc2ccecdcd317394c8e",
+      "slotId": "mod_foregrip"
+    },
+    {
+      "_id": "71f8243c9c224e883824fe02",
+      "_tpl": "5b7be47f5acfc400170e2dd2",
+      "parentId": "f35d5fc2ccecdcd317394c8e",
+      "slotId": "mod_mount_000"
+    },
+    {
+      "_id": "12597c2b2d4e55a81a57c8c1",
+      "_tpl": "5b7be47f5acfc400170e2dd2",
+      "parentId": "f35d5fc2ccecdcd317394c8e",
+      "slotId": "mod_mount_001"
+    }
+          ],
+          "target": "61c277a6d3fbb08daa85913c",
+          "type": "Item",
+          "value": "1"
+        }		
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_trainedwarriorcombat startedMessageText",
+    "successMessageText": "Lotus_trainedwarriorcombat successMessageText",
+    "templateId": "Lotus_trainedwarriorcombat",
+    "traderId": "lotus",
+    "type": "Skill"	
+},
+  "Lotus_trainedwarriorfirstaid": {
+    "QuestName": "Trained warrior - first aid",
+    "_id": "Lotus_trainedwarriorfirstaid",
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorfirstaid_AFF_0",
+            "index": 0,
+            "parentId": "",
+            "target": "Health",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorfirstaid_AFF_1",
+            "index": 1,
+            "parentId": "",
+            "target": "Surgery",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorfirstaid_AFF_2",
+            "index": 2,
+            "parentId": "",
+            "target": "Vitality",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorfirstaid_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_trainedwarriorcombat",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_trainedwarriorfirstaid description",
+    "failMessageText": "Lotus_trainedwarriorfirstaid failMessageText",
+    "image": "/files/quest/icon/lotus_trainedwarriorfirstaid.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Lotus_trainedwarriorfirstaid name",
+    "note": "",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Lotus_trainedwarriorfirstaid_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "14778"
+        },
+       {
+          "id": "Lotus_trainedwarriorfirstaid_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.02"
+        },		
+        {
+          "findInRaid": true,
+          "id": "Lotus_trainedwarriorfirstaid_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorfirstaid_reward2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 13024
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorfirstaid_reward2_0",
+          "type": "Item",
+          "value": "13024"
+        },		
+        {
+          "findInRaid": false,
+          "id": "Lotus_trainedwarriorfirstaid_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorfirstaid_reward3_0",
+              "_tpl": "590c657e86f77412b013051d",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorfirstaid_reward3_0",
+          "type": "Item",
+          "value": "2"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_trainedwarriorfirstaid_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorfirstaid_reward4_0",
+              "_tpl": "5e8488fa988a8701445df1e4",
+              "upd": {
+                "StackObjectsCount": 4
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorfirstaid_reward4_0",
+          "type": "Item",
+          "value": "4"
+        }		
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_trainedwarriorfirstaid startedMessageText",
+    "successMessageText": "Lotus_trainedwarriorfirstaid successMessageText",
+    "templateId": "Lotus_trainedwarriorfirstaid",
+    "traderId": "lotus",
+    "type": "Skill"	
+  },
+  "Lotus_trainedwarriorscavenger": {
+    "QuestName": "Trained warrior - scavenger",
+    "_id": "Lotus_trainedwarriorscavenger",
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorscavenger_AFF_0",
+            "index": 0,
+            "parentId": "",
+            "target": "Perception",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorscavenger_AFF_1",
+            "index": 1,
+            "parentId": "",
+            "target": "Attention",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorscavenger_AFF_2",
+            "index": 2,
+            "parentId": "",
+            "target": "Strength",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorscavenger_AFF_3",
+            "index": 3,
+            "parentId": "",
+            "target": "Endurance",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorscavenger_start0",
+            "index": 0,
+            "parentId": "",
+            "value": 20,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorscavenger_start1",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_trainedwarriorfirstaid",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_trainedwarriorscavenger description",
+    "failMessageText": "Lotus_trainedwarriorscavenger failMessageText",
+    "image": "/files/quest/icon/lotus_trainedwarriorscavenger.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Lotus_trainedwarriorscavenger name",
+    "note": "",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Lotus_trainedwarriorscavenger_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "17192"
+        },
+       {
+          "id": "Lotus_trainedwarriorscavenger_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.02"
+        },		
+        {
+          "findInRaid": true,
+          "id": "Lotus_trainedwarriorscavenger_reward2",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorscavenger2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 12949
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorscavenger2_0",
+          "type": "Item",
+          "value": "12949"
+        },			
+        {
+          "findInRaid": false,
+          "id": "Lotus_trainedwarriorscavenger_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorscavenger_reward3_0",
+              "_tpl": "590c2e1186f77425357b6124",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorscavenger_reward3_0",
+          "type": "Item",
+          "value": "2"
+        }	
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_trainedwarriorscavenger startedMessageText",
+    "successMessageText": "Lotus_trainedwarriorscavenger successMessageText",
+    "templateId": "Lotus_trainedwarriorscavenger",
+    "traderId": "lotus",
+    "type": "Skill"	
+  },
+  "Lotus_trainedwarriorfirearms": {
+    "QuestName": "Trained warrior - firearms expert",
+    "_id": "Lotus_trainedwarriorfirearms",
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorfirearms_AFF_0",
+            "index": 0,
+            "parentId": "",
+            "target": "Assault",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorfirearms_AFF_1",
+            "index": 1,
+            "parentId": "",
+            "target": "DMR",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorfirearms_AFF_2",
+            "index": 2,
+            "parentId": "",
+            "target": "LMG",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorfirearms_AFF_3",
+            "index": 3,
+            "parentId": "",
+            "target": "Pistol",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorfirearms_AFF_4",
+            "index": 4,
+            "parentId": "",
+            "target": "Shotgun",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorfirearms_AFF_5",
+            "index": 5,
+            "parentId": "",
+            "target": "Sniper",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorfirearms_AFF_6",
+            "index": 6,
+            "parentId": "",
+            "target": "SMG",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }			
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorfirearms_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_trainedwarriorscavenger",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_trainedwarriorfirearms description",
+    "failMessageText": "Lotus_trainedwarriorfirearms failMessageText",
+    "image": "/files/quest/icon/lotus_trainedwarriorfirearmexpert.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Lotus_trainedwarriorfirearms name",
+    "note": "",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Lotus_trainedwarriorfirearms_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "17192"
+        },
+       {
+          "id": "Lotus_trainedwarriorfirearms_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.02"
+        },		
+        {
+          "findInRaid": true,
+          "id": "Lotus_trainedwarriorfirearmsreward2",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorfirearmsreward2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 15762
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorfirearmsreward2_0",
+          "type": "Item",
+          "value": "15762"
+        },			
+        {
+          "findInRaid": true,
+          "id": "Lotus_trainedwarriorfirearm_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorfirearm_reward3_0",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 192
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorfirearm_reward3_0",
+          "type": "Item",
+          "value": "192"
+        },
+        {
+          "findInRaid": true,
+          "id": "Lotus_trainedwarriorfirearm_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorfirearm_reward4_0",
+              "_tpl": "569668774bdc2da2298b4568",
+              "upd": {
+                "StackObjectsCount": 237
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorfirearm_reward4_0",
+          "type": "Item",
+          "value": "237"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_trainedwarriorfirearm_reward5",
+          "index": 5,
+          "items": [
+            {
+              "_id": "7d08147a45e1fbbabfd925df",
+              "_tpl": "5ac66d2e5acfc43b321d4b53",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+
+    {
+      "_id": "da9bf37546d96dbdacb84436",
+      "_tpl": "59c6633186f7740cf0493bb9",
+      "parentId": "7d08147a45e1fbbabfd925df",
+      "slotId": "mod_gas_block"
+    },
+    {
+      "_id": "f8061606525eb82b9c0c598d",
+      "_tpl": "5649ab884bdc2ded0b8b457f",
+      "parentId": "7d08147a45e1fbbabfd925df",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "375bb1d25a009806133f6c33",
+      "_tpl": "5cf50850d7f00c056e24104c",
+      "parentId": "7d08147a45e1fbbabfd925df",
+      "slotId": "mod_pistol_grip"
+    },
+    {
+      "_id": "0c92da6077645ec1d934f735",
+      "_tpl": "5d2c772c48f0355d95672c25",
+      "parentId": "7d08147a45e1fbbabfd925df",
+      "slotId": "mod_reciever"
+    },
+    {
+      "_id": "bc8128de53e6de8d2c4ac510",
+      "_tpl": "5beec8b20db834001961942a",
+      "parentId": "7d08147a45e1fbbabfd925df",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "48e1343c25c617318f9d4985",
+      "_tpl": "6272874a6c47bd74f92e2087",
+      "parentId": "7d08147a45e1fbbabfd925df",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "07816b35ac61132a9bfa0257",
+      "_tpl": "5efaf417aeb21837e749c7f2",
+      "parentId": "da9bf37546d96dbdacb84436",
+      "slotId": "mod_handguard"
+    },
+    {
+      "_id": "0e41557c4532a52e65763ada",
+      "_tpl": "5c1cdd302e221602b3137250",
+      "parentId": "0c92da6077645ec1d934f735",
+      "slotId": "mod_scope"
+    },
+    {
+      "_id": "0b3ca241278fc1f9eade88a1",
+      "_tpl": "5c793fde2e221601da358614",
+      "parentId": "bc8128de53e6de8d2c4ac510",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "11ae41952e8937330a8ad64e",
+      "_tpl": "588226d124597767ad33f787",
+      "parentId": "07816b35ac61132a9bfa0257",
+      "slotId": "mod_foregrip"
+    },
+    {
+      "_id": "e2ef04f612582fbb4f287d9f",
+      "_tpl": "5c1cdd512e22161b267d91ae",
+      "parentId": "0e41557c4532a52e65763ada",
+      "slotId": "mod_scope"
+        }			
+          ],
+          "target": "7d08147a45e1fbbabfd925df",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_trainedwarriorfirearm_reward6",
+          "index": 6,
+          "items": [
+            {
+              "_id": "1936de6f6bf7fbdcabb9f769",
+              "_tpl": "618428466ef05c2ce828f218",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+    {
+      "_id": "f17f5d77d1716dc33cf09ff8",
+      "_tpl": "55802f5d4bdc2dac148b458f",
+      "parentId": "1936de6f6bf7fbdcabb9f769",
+      "slotId": "mod_pistol_grip"
+    },
+    {
+      "_id": "51c04cecbaa653a84a6bf8fa",
+      "_tpl": "55802d5f4bdc2dac148b458e",
+      "parentId": "1936de6f6bf7fbdcabb9f769",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "8319244da1404ef0ba503d01",
+      "_tpl": "618426d96c780c1e710c9b9f",
+      "parentId": "1936de6f6bf7fbdcabb9f769",
+      "slotId": "mod_reciever"
+    },
+    {
+      "_id": "061dd69fb625ed9af455de54",
+      "_tpl": "61825d06d92c473c770215de",
+      "parentId": "1936de6f6bf7fbdcabb9f769",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "84c7e32edfdc1c7464448f06",
+      "_tpl": "6181688c6c780c1e710c9b04",
+      "parentId": "1936de6f6bf7fbdcabb9f769",
+      "slotId": "mod_charge"
+    },
+    {
+      "_id": "20a3d6b1ea135155eae2db1a",
+      "_tpl": "59f9d81586f7744c7506ee62",
+      "parentId": "8319244da1404ef0ba503d01",
+      "slotId": "mod_scope",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "0dba2a56855fd3b4bbdfb0db",
+      "_tpl": "6183fc15d3a39d50044c13e9",
+      "parentId": "8319244da1404ef0ba503d01",
+      "slotId": "mod_barrel"
+    },
+    {
+      "_id": "fd7a2604b948b9619584c7bf",
+      "_tpl": "61817865d3a39d50044c13a4",
+      "parentId": "8319244da1404ef0ba503d01",
+      "slotId": "mod_sight_rear",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "d71a9001284f74590e73c255",
+      "_tpl": "61816df1d3a39d50044c139e",
+      "parentId": "8319244da1404ef0ba503d01",
+      "slotId": "mod_mount_000"
+    },
+    {
+      "_id": "0ddf2d2411eb90f8aeb4512b",
+      "_tpl": "61816dfa6ef05c2ce828f1ad",
+      "parentId": "8319244da1404ef0ba503d01",
+      "slotId": "mod_mount_001"
+    },
+    {
+      "_id": "c0bd0a97c830e9e399195a8e",
+      "_tpl": "618167528004cc50514c34f9",
+      "parentId": "061dd69fb625ed9af455de54",
+      "slotId": "mod_stock_001"
+    },
+    {
+      "_id": "bbed36325c9297f43b451326",
+      "_tpl": "61825d24d3a39d50044c13af",
+      "parentId": "061dd69fb625ed9af455de54",
+      "slotId": "mod_stock_002"
+    },
+    {
+      "_id": "e1be7f4950adbc02592de34d",
+      "_tpl": "618407a850224f204c1da549",
+      "parentId": "0dba2a56855fd3b4bbdfb0db",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "b1f7d92a31665c4a8095a0b8",
+      "_tpl": "61816fcad92c473c770215cc",
+      "parentId": "0dba2a56855fd3b4bbdfb0db",
+      "slotId": "mod_sight_front",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "d02623d91fb6a81beb45f661",
+      "_tpl": "59fc48e086f77463b1118392",
+      "parentId": "d71a9001284f74590e73c255",
+      "slotId": "mod_foregrip"
+    },
+    {
+      "_id": "6483ad54c09029288b400c3a",
+      "_tpl": "618167616ef05c2ce828f1a8",
+      "parentId": "c0bd0a97c830e9e399195a8e",
+      "slotId": "mod_stock"
+    }			
+          ],
+          "target": "1936de6f6bf7fbdcabb9f769",
+          "type": "Item",
+          "value": "1"
+        }		
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_trainedwarriorfirearm startedMessageText",
+    "successMessageText": "Lotus_trainedwarriorfirearm successMessageText",
+    "templateId": "Lotus_trainedwarriorfirearm",
+    "traderId": "lotus",
+    "type": "Skill"	
+},
+  "Lotus_trainedwarriorsneak": {
+    "QuestName": "Trained warrior - sneaky bastard",
+    "_id": "Lotus_trainedwarriorsneak",
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "Skill",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorsneak_AFF_0",
+            "index": 0,
+            "parentId": "",
+            "target": "CovertMovement",
+            "value": 5,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }	
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_trainedwarriorsneak_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_trainedwarriorfirearms",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_trainedwarriorsneak description",
+    "failMessageText": "Lotus_trainedwarriorsneak failMessageText",
+    "image": "/files/quest/icon/lotus_trainedwarriorsneakybastard.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Lotus_trainedwarriorsneak name",
+    "note": "",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Lotus_trainedwarriorsneak_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "19820"
+        },
+       {
+          "id": "Lotus_trainedwarriorsneak_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.05"
+        },		
+        {
+          "findInRaid": true,
+          "id": "Lotus_trainedwarriorsneak_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorsneak_reward2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 13024
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorsneak_reward2_0",
+          "type": "Item",
+          "value": "13024"
+        },		
+        {
+          "findInRaid": false,
+          "id": "Lotus_trainedwarriorsneak_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorsneak_reward3_0",
+              "_tpl": "5e2af47786f7746d404f3aaa",
+              "upd": {
+                "StackObjectsCount": 5
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorsneak_reward3_0",
+          "type": "Item",
+          "value": "5"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_trainedwarriorsneak_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "Lotus_trainedwarriorsneak_reward4_0",
+              "_tpl": "62a0a098de7ac8199358053b",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "Lotus_trainedwarriorsneak_reward4_0",
+          "type": "Item",
+          "value": "2"
+        },
+		{
+          "id": "Lotus_trainedwarriorsneak_reward5",
+          "index": 5,
+          "items": [
+            {
+              "_id": "comtac4barter",
+              "_tpl": "628e4e576d783146b124c64d"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "comtac4barter",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_trainedwarriorsneak_reward6",
+          "index": 6,
+          "items": [
+            {
+              "_id": "comtac4",
+              "_tpl": "628e4e576d783146b124c64d"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "comtac4",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_trainedwarriorsneak startedMessageText",
+    "successMessageText": "Lotus_trainedwarriorsneak successMessageText",
+    "templateId": "Lotus_trainedwarriorsneak",
+    "traderId": "lotus",
+    "type": "Skill"
+  }  
+}

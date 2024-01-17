@@ -1,0 +1,3893 @@
+{
+  "Lotus_tarkovcleanerfactory": {
+    "QuestName": "The Tarkov Cleaner - Factory",
+    "_id": "Lotus_tarkovcleanerfactory",
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerfactory_AFF_0_0",
+                    "target": "AnyPmc",
+                    "value": "1"					
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerfactory_AFF_0_1",
+                    "target": [
+                      "factory4_day",
+                      "factory4_night"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfactory_AFF_0_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfactory_AFF_0",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerfactory_AFF_1_0",
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerfactory_AFF_1_1",
+                    "target": [
+                      "factory4_day",
+                      "factory4_night"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfactory_AFF_1_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfactory_AFF_1",
+            "index": 1,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "15",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerfactory_AFF_2_0",
+                    "savageRole": [
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerfactory_AFF_2_1",
+                    "target": [
+                      "factory4_day",
+                      "factory4_night"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfactory_AFF_2_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfactory_AFF_2",
+            "index": 2,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "8",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerfactory_AFF_3_0",
+                    "savageRole": [
+                      "sectantPriest"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerfactory_AFF_3_1",
+                    "target": [
+                      "factory4_day",
+                      "factory4_night"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfactory_AFF_3_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfactory_AFF_3",
+            "index": 3,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerfactory_AFF_4_0",
+                    "savageRole": [
+                      "bossTagilla"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerfactory_AFF_4_1",
+                    "target": [
+                      "factory4_day",
+                      "factory4_night"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfactory_AFF_4_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfactory_AFF_4",
+            "index": 4,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Level",
+          "_props": {
+            "compareMethod": ">=",
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfactory_start0",
+            "index": 0,
+            "parentId": "",
+            "value": 30,
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfactory_start1",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_gift",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfactory_start2",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ruafinfiltrator2",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfactory_start3",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_trainedwarriorsneak",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }			
+	  ],
+      "Fail": []
+    },
+    "description": "Lotus_tarkovcleanerfactory description",
+    "image": "/files/quest/icon/lotus_tarkovcleanerfactory.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "55f2d3fd4bdc2d5f408b4567",
+    "name": "Lotus_tarkovcleanerfactory name",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Lotus_tarkovcleanerfactory_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": 24518
+        },	  
+        {
+          "id": "Lotus_tarkovcleanerfactory_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.06"
+        },
+        {
+          "id": "Lotus_tarkovcleanerfactory_reward2",
+          "index": 2,
+          "target": "5a7c2eca46aef81a7ca2145d",
+          "type": "TraderStanding",
+          "value": "0.06"
+        },		
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerfactory_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanerfactory_reward3_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 89823
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanerfactory_reward3_0",
+          "type": "Item",
+          "value": "89823"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerfactory_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanerfactory_reward4_0",
+              "_tpl": "56dff026d2720bb8668b4567",
+              "upd": {
+                "StackObjectsCount": 90
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanerfactory_reward4_0",
+          "type": "Item",
+          "value": "90"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerfactory_reward5",
+          "index": 5,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanerfactory_reward5_0",
+              "_tpl": "54527ac44bdc2d36668b4567",
+              "upd": {
+                "StackObjectsCount": 90
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanerfactory_reward5_0",
+          "type": "Item",
+          "value": "90"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerfactory_reward6",
+          "index": 6,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanerfactory_reward6_0",
+              "_tpl": "57347c2e24597744902c94a1",
+              "upd": {
+                "StackObjectsCount": 6
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanerfactory_reward6_0",
+          "type": "Item",
+          "value": "6"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_tarkovcleanerfactory startedMessageText",
+    "successMessageText": "Lotus_tarkovcleanerfactory successMessageText",
+    "templateId": "Lotus_tarkovcleanerfactory",
+    "traderId": "lotus",
+    "type": "Elimination"
+},
+  "Lotus_tarkovcleanerreserve": {
+    "QuestName": "The Tarkov Cleaner - Reserve",
+    "_id": "Lotus_tarkovcleanerreserve",
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerreserve_AFF_0_0",
+                    "target": "AnyPmc",
+                    "value": "1"					
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerreserve_AFF_0_1",
+                    "target": [
+                      "RezervBase"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerreserve_AFF_0_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerreserve_AFF_0",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerreserve_AFF_1_0",
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerreserve_AFF_1_1",
+                    "target": [
+                      "RezervBase"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerreserve_AFF_1_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerreserve_AFF_1",
+            "index": 1,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "25",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerreserve_AFF_2_0",
+                    "savageRole": [
+                      "pmcBot"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerreserve_AFF_2_1",
+                    "target": [
+                      "RezervBase"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerreserve_AFF_2_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerreserve_AFF_2",
+            "index": 2,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "15",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerreserve_AFF_3_0",
+                    "savageRole": [
+                      "followerGluharAssault",
+                      "followerGluharScout",
+                      "followerGluharSecurity"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerreserve_AFF_3_1",
+                    "target": [
+                      "RezervBase"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerreserve_AFF_3_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerreserve_AFF_3",
+            "index": 3,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },			
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerreserve_AFF_4_0",
+                    "savageRole": [
+                      "bossGluhar"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerreserve_AFF_4_1",
+                    "target": [
+                      "RezervBase"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerreserve_AFF_4_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerreserve_AFF_4",
+            "index": 4,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerreserve_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_tarkovcleanerfactory",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+	  ],
+      "Fail": []
+    },
+    "description": "Lotus_tarkovcleanerreserve description",
+    "image": "/files/quest/icon/lotus_tarkovcleanerreserve.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e5fad2720bc05b8b4567",
+    "name": "Lotus_tarkovcleanerreserve name",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Lotus_tarkovcleanerreserve_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": 26734
+        },	  
+        {
+          "id": "Lotus_tarkovcleanerreserve_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.06"
+        },		
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerreserve_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanerreserve_reward2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 114762
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanerreserve_reward2_0",
+          "type": "Item",
+          "value": "104762"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerreserve_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanerreserve_reward3_0",
+              "_tpl": "5d40412b86f7743cb332ac3a",
+              "upd": {
+                "StackObjectsCount": 8
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanerreserve_reward3_0",
+          "type": "Item",
+          "value": "8"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerreserve_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanerreserve_reward4_0",
+              "_tpl": "62a09f32621468534a797acb",
+              "upd": {
+                "StackObjectsCount": 5
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanerreserve_reward4_0",
+          "type": "Item",
+          "value": "5"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerreserve_reward5",
+          "index": 5,
+          "items": [
+            {
+              "_id": "spetznazak",
+              "_tpl": "5ac66d9b5acfc4001633997a",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+    {
+      "_id": "10b5a9a706ea612cb8c02958",
+      "_tpl": "59c6633186f7740cf0493bb9",
+      "parentId": "spetznazak",
+      "slotId": "mod_gas_block"
+    },
+    {
+      "_id": "65b4d4b3c94e9e7d270b1b22",
+      "_tpl": "5f633f791b231926f2329f13",
+      "parentId": "spetznazak",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "63c3138ccab05e6bc02581c9",
+      "_tpl": "5c6bf4aa2e2216001219b0ae",
+      "parentId": "spetznazak",
+      "slotId": "mod_pistol_grip"
+    },
+    {
+      "_id": "4f3bdb00b8d6a2cc775f4ecf",
+      "_tpl": "5d2c772c48f0355d95672c25",
+      "parentId": "spetznazak",
+      "slotId": "mod_reciever"
+    },
+    {
+      "_id": "34fd5c127cf7e8cdaba34b71",
+      "_tpl": "5cf50fc5d7f00c056c53f83c",
+      "parentId": "spetznazak",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "820139b78e869aaf017929fd",
+      "_tpl": "5cbdaf89ae9215000e5b9c94",
+      "parentId": "spetznazak",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "821a7696440a077f01043a80",
+      "_tpl": "5648ac824bdc2ded0b8b457d",
+      "parentId": "spetznazak",
+      "slotId": "mod_charge"
+    },
+    {
+      "_id": "70608a167cf6cb74acdb6f64",
+      "_tpl": "5efaf417aeb21837e749c7f2",
+      "parentId": "10b5a9a706ea612cb8c02958",
+      "slotId": "mod_handguard"
+    },
+    {
+      "_id": "08ebb3197e532264924c0012",
+      "_tpl": "5c07dd120db834001c39092d",
+      "parentId": "4f3bdb00b8d6a2cc775f4ecf",
+      "slotId": "mod_scope",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "8e586fe767a9fc97dcd0d9ca",
+      "_tpl": "5ae30c9a5acfc408fb139a03",
+      "parentId": "34fd5c127cf7e8cdaba34b71",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "9423be88e19a69ed7e1007f3",
+      "_tpl": "5c1bc7752e221602b1779b34",
+      "parentId": "70608a167cf6cb74acdb6f64",
+      "slotId": "mod_foregrip"
+    },
+    {
+      "_id": "8e3a1aaed96d2e07992fa83a",
+      "_tpl": "5d10b49bd7ad1a1a560708b0",
+      "parentId": "70608a167cf6cb74acdb6f64",
+      "slotId": "mod_scope",
+      "upd": {
+        "Light": {
+          "IsActive": true,
+          "SelectedMode": 0
+        }
+      }
+    },
+    {
+      "_id": "6c0e15b2a9541495697f9572",
+      "_tpl": "56def37dd2720bec348b456a",
+      "parentId": "70608a167cf6cb74acdb6f64",
+      "slotId": "mod_tactical_002"
+        }			
+          ],
+          "target": "spetznazak",
+          "type": "Item",
+          "value": "1"
+        },
+		{
+          "id": "Lotus_tarkovcleanerreserve_reward6",
+          "index": 6,
+          "items": [
+            {
+              "_id": "m32gl",
+              "_tpl": "6275303a9f372d6ea97f9ec7"
+            },
+    {
+      "_id": "ffe7bd298ae6defdc9395aef",
+      "_tpl": "57af48872459771f0b2ebf11",
+      "parentId": "m32gl",
+      "slotId": "mod_pistol_grip"
+    },
+    {
+      "_id": "28ffa8915edceec65a5513cd",
+      "_tpl": "5d135ecbd7ad1a21c176542e",
+      "parentId": "m32gl",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "b802cd4c19aa1b8d3e45969d",
+      "_tpl": "627bce33f21bc425b06ab967",
+      "parentId": "m32gl",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "a47fece486667f9b50d1da5f",
+      "_tpl": "5fce0cf655375d18a253eff0",
+      "parentId": "m32gl",
+      "slotId": "mod_foregrip"
+    },
+    {
+      "_id": "4a982e75d173a5d5c974fd1b",
+      "_tpl": "6284bd5f95250a29bc628a30",
+      "parentId": "m32gl",
+      "slotId": "mod_scope",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "b06e512cc8e965c980dd706f",
+      "_tpl": "544909bb4bdc2d6f028b4577",
+      "parentId": "m32gl",
+      "slotId": "mod_tactical_000"
+        }			
+          ],
+          "loyaltyLevel": 4,
+          "target": "m32gl",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_tarkovcleanerreserve startedMessageText",
+    "successMessageText": "Lotus_tarkovcleanerreserve successMessageText",
+    "templateId": "Lotus_tarkovcleanerreserve",
+    "traderId": "lotus",
+    "type": "Elimination"
+},
+  "Lotus_tarkovcleanershoreline": {
+    "QuestName": "The Tarkov Cleaner - Shoreline",
+    "_id": "Lotus_tarkovcleanershoreline",
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_0_0",
+                    "target": "AnyPmc",
+                    "value": "1"					
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_0_1",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanershoreline_AFF_0_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanershoreline_AFF_0",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "25",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_1_0",
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_1_1",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanershoreline_AFF_1_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanershoreline_AFF_1",
+            "index": 1,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_2_0",
+                    "savageRole": [
+                      "arenaFighterEvent"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_2_1",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanershoreline_AFF_2_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanershoreline_AFF_2",
+            "index": 2,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_3_0",
+                    "savageRole": [
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_3_1",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanershoreline_AFF_3_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanershoreline_AFF_3",
+            "index": 3,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "8",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },			
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_4_0",
+                    "savageRole": [
+                      "followerSanitar"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_4_1",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanershoreline_AFF_4_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanershoreline_AFF_4",
+            "index": 4,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "6",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_5_0",
+                    "savageRole": [
+                      "sectantPriest"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_5_1",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanershoreline_AFF_5_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanershoreline_AFF_5",
+            "index": 5,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_6_0",
+                    "savageRole": [
+                      "bossSanitar"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_6_1",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanershoreline_AFF_6_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanershoreline_AFF_6",
+            "index": 6,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_7_0",
+                    "savageRole": [
+                      "followerBigPipe"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_7_1",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanershoreline_AFF_7_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanershoreline_AFF_7",
+            "index": 7,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_8_0",
+                    "savageRole": [
+                      "followerBirdEye"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_8_1",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanershoreline_AFF_8_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanershoreline_AFF_8",
+            "index": 8,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_9_0",
+                    "savageRole": [
+                      "bossKnight"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanershoreline_AFF_9_1",
+                    "target": [
+                      "Shoreline"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanershoreline_AFF_9_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanershoreline_AFF_9",
+            "index": 9,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }			
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanershoreline_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_tarkovcleanerfactory",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+	  ],
+      "Fail": []
+    },
+    "description": "Lotus_tarkovcleanershoreline description",
+    "image": "/files/quest/icon/lotus_tarkovcleanershoreline.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e554d2720bac5b8b456e",
+    "name": "Lotus_tarkovcleanershoreline name",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Lotus_tarkovcleanershoreline_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": 26734
+        },	  
+        {
+          "id": "Lotus_tarkovcleanershoreline_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.06"
+        },		
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanershoreline_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanershoreline_reward2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 114762
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanershoreline_reward2_0",
+          "type": "Item",
+          "value": "104762"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanershoreline_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanershoreline_reward3_0",
+              "_tpl": "5d40412b86f7743cb332ac3a",
+              "upd": {
+                "StackObjectsCount": 8
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanershoreline_reward3_0",
+          "type": "Item",
+          "value": "8"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanershoreline_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanershoreline_reward4_0",
+              "_tpl": "62a09f32621468534a797acb",
+              "upd": {
+                "StackObjectsCount": 5
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanershoreline_reward4_0",
+          "type": "Item",
+          "value": "5"
+        }		
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_tarkovcleanershoreline startedMessageText",
+    "successMessageText": "Lotus_tarkovcleanershoreline successMessageText",
+    "templateId": "Lotus_tarkovcleanershoreline",
+    "traderId": "lotus",
+    "type": "Elimination"
+},	
+  "Lotus_tarkovcleanerlighthouse": {
+    "QuestName": "The Tarkov Cleaner - Lighthouse",
+    "_id": "Lotus_tarkovcleanerlighthouse",
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlighthouse_AFF_0_0",
+                    "target": "AnyPmc",
+                    "value": "1"					
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlighthouse_AFF_0_1",
+                    "target": [
+                      "Lighthouse"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerlighthouse_AFF_0_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerlighthouse_AFF_0",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "25",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlighthouse_AFF_1_0",
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlighthouse_AFF_1_1",
+                    "target": [
+                      "Lighthouse"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerlighthouse_AFF_1_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerlighthouse_AFF_1",
+            "index": 1,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlighthouse_AFF_2_0",
+                    "savageRole": [
+                      "exUsec"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlighthouse_AFF_2_1",
+                    "target": [
+                      "Lighthouse"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerlighthouse_AFF_2_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerlighthouse_AFF_2",
+            "index": 2,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "15",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlighthouse_AFF_3_0",
+                    "savageRole": [
+                      "followerBigPipe"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlighthouse_AFF_3_1",
+                    "target": [
+                      "Lighthouse"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerlighthouse_AFF_3_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerlighthouse_AFF_3",
+            "index": 3,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlighthouse_AFF_4_0",
+                    "savageRole": [
+                      "followerBirdEye"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlighthouse_AFF_4_1",
+                    "target": [
+                      "Lighthouse"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerlighthouse_AFF_4_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerlighthouse_AFF_4",
+            "index": 4,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlighthouse_AFF_4_0",
+                    "savageRole": [
+                      "bossKnight"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlighthouse_AFF_5_1",
+                    "target": [
+                      "Lighthouse"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerlighthouse_AFF_5_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerlighthouse_AFF_5",
+            "index": 5,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }			
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerlighthouse_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_tarkovcleanerreserve",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }			
+	  ],
+      "Fail": []
+    },
+    "description": "Lotus_tarkovcleanerlighthouse description",
+    "image": "/files/quest/icon/lotus_tarkovcleanerlighthouse.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e4dad2720bb55b8b4567",
+    "name": "Lotus_tarkovcleanerlighthouse name",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Lotus_tarkovcleanerlighthouse_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": 29872
+        },	  
+        {
+          "id": "Lotus_tarkovcleanerlighthouse_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.06"
+        },	
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerlighthouse_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanerlighthouse_reward2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 129821
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanerlighthouse_reward2_0",
+          "type": "Item",
+          "value": "89823"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerlighthouse_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "88822fd91413a1bd6feccaa5",
+              "_tpl": "5a367e5dc4a282000e49738f",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+    {
+      "_id": "17498c667b780f5fbe268b62",
+      "_tpl": "55802f5d4bdc2dac148b458f",
+      "parentId": "88822fd91413a1bd6feccaa5",
+      "slotId": "mod_pistol_grip"
+    },
+    {
+      "_id": "a8af5cb45410627357d675ad",
+      "_tpl": "5a3501acc4a282000d72293a",
+      "parentId": "88822fd91413a1bd6feccaa5",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "1e33e1840d45f002b62e318e",
+      "_tpl": "5bb20e58d4351e00320205d7",
+      "parentId": "88822fd91413a1bd6feccaa5",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "6cf12d5dc808e00e67d56670",
+      "_tpl": "5a329052c4a28200741e22d3",
+      "parentId": "88822fd91413a1bd6feccaa5",
+      "slotId": "mod_handguard"
+    },
+    {
+      "_id": "17f15c9e7d56791171fc36b2",
+      "_tpl": "5a34f7f1c4a2826c6e06d75d",
+      "parentId": "88822fd91413a1bd6feccaa5",
+      "slotId": "mod_barrel"
+    },
+    {
+      "_id": "dce5c2a44a298bc188884e59",
+      "_tpl": "57ac965c24597706be5f975c",
+      "parentId": "88822fd91413a1bd6feccaa5",
+      "slotId": "mod_scope",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0,
+            0
+          ],
+          "ScopesSelectedModes": [
+            0,
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "140d2331eae869bb6d711e88",
+      "_tpl": "5c18b9192e2216398b5a8104",
+      "parentId": "88822fd91413a1bd6feccaa5",
+      "slotId": "mod_sight_rear",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "5db269212abb638d118d71e6",
+      "_tpl": "5d135ecbd7ad1a21c176542e",
+      "parentId": "1e33e1840d45f002b62e318e",
+      "slotId": "mod_stock_000"
+    },
+    {
+      "_id": "e558a5a5bbfee68db784ebd1",
+      "_tpl": "57cffb66245977632f391a99",
+      "parentId": "6cf12d5dc808e00e67d56670",
+      "slotId": "mod_foregrip"
+    },
+    {
+      "_id": "f17c546cb90dcd03efffcfc4",
+      "_tpl": "5c0102aa0db834001b734ba1",
+      "parentId": "6cf12d5dc808e00e67d56670",
+      "slotId": "mod_mount_000"
+    },
+    {
+      "_id": "fa4da06b16188921b0256393",
+      "_tpl": "5c0102aa0db834001b734ba1",
+      "parentId": "6cf12d5dc808e00e67d56670",
+      "slotId": "mod_mount_001"
+    },
+    {
+      "_id": "301bf0595db29cd256385c1f",
+      "_tpl": "5dfa3cd1b33c0951220c079b",
+      "parentId": "17f15c9e7d56791171fc36b2",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "ad7967ccddf39b644727c530",
+      "_tpl": "5a34fbadc4a28200741e230a",
+      "parentId": "17f15c9e7d56791171fc36b2",
+      "slotId": "mod_gas_block"
+    },
+    {
+      "_id": "120c9752091311e03b4660eb",
+      "_tpl": "5c18b90d2e2216152142466b",
+      "parentId": "ad7967ccddf39b644727c530",
+      "slotId": "mod_sight_front"
+        }			
+          ],
+          "target": "88822fd91413a1bd6feccaa5",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerlighthouse_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "8fd18f6f27215c98bdd760d5",
+              "_tpl": "606587252535c57a13424cfd",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+    {
+      "_id": "f8998b1f92259a5e91b433ea",
+      "_tpl": "5d15cf3bd7ad1a67e71518b2",
+      "parentId": "8fd18f6f27215c98bdd760d5",
+      "slotId": "mod_pistol_grip"
+    },
+    {
+      "_id": "79e3d994fa4a1ec459af89f5",
+      "_tpl": "59fafc9386f774067d462453",
+      "parentId": "8fd18f6f27215c98bdd760d5",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "a64e7b1eb78848dc154093d9",
+      "_tpl": "606587a88900dc2d9a55b659",
+      "parentId": "8fd18f6f27215c98bdd760d5",
+      "slotId": "mod_reciever"
+    },
+    {
+      "_id": "254a0794031b1ee26010562c",
+      "_tpl": "591af10186f774139d495f0e",
+      "parentId": "8fd18f6f27215c98bdd760d5",
+      "slotId": "mod_stock_001"
+    },
+    {
+      "_id": "b6eacdcc258d589b4555ff37",
+      "_tpl": "606587bd6d0bd7580617bacc",
+      "parentId": "8fd18f6f27215c98bdd760d5",
+      "slotId": "mod_charge"
+    },
+    {
+      "_id": "39c9e6bd94d04c91b88877fb",
+      "_tpl": "5c0a2cec0db834001b7ce47d",
+      "parentId": "a64e7b1eb78848dc154093d9",
+      "slotId": "mod_scope",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "fb63bb2dea54a3d519c590ac",
+      "_tpl": "6065878ac9cf8012264142fd",
+      "parentId": "a64e7b1eb78848dc154093d9",
+      "slotId": "mod_barrel"
+    },
+    {
+      "_id": "c0285e9757ba73e1d73147f2",
+      "_tpl": "5a329052c4a28200741e22d3",
+      "parentId": "a64e7b1eb78848dc154093d9",
+      "slotId": "mod_handguard"
+    },
+    {
+      "_id": "6dbfaa6b698ab7fea6153384",
+      "_tpl": "628a66b41d5e41750e314f34",
+      "parentId": "fb63bb2dea54a3d519c590ac",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "39491553ce68912a685c37b6",
+      "_tpl": "6065dc8a132d4d12c81fd8e3",
+      "parentId": "fb63bb2dea54a3d519c590ac",
+      "slotId": "mod_gas_block"
+    },
+    {
+      "_id": "7af70a7520f5fbe10cb1992d",
+      "_tpl": "57cffcd624597763133760c5",
+      "parentId": "c0285e9757ba73e1d73147f2",
+      "slotId": "mod_foregrip"
+    },
+    {
+      "_id": "4f9b5caaf879ff8879364c39",
+      "_tpl": "544909bb4bdc2d6f028b4577",
+      "parentId": "c0285e9757ba73e1d73147f2",
+      "slotId": "mod_tactical"
+        }			
+          ],
+          "target": "8fd18f6f27215c98bdd760d5",
+          "type": "Item",
+          "value": "1"
+        }	
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_tarkovcleanerlighthouse startedMessageText",
+    "successMessageText": "Lotus_tarkovcleanerlighthouse successMessageText",
+    "templateId": "Lotus_tarkovcleanerlighthouse",
+    "traderId": "lotus",
+    "type": "Elimination"
+},
+  "Lotus_tarkovcleanercustoms": {
+    "QuestName": "The Tarkov Cleaner - Customs",
+    "_id": "Lotus_tarkovcleanercustoms",
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_0_0",
+                    "target": "AnyPmc",
+                    "value": "1"					
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_0_1",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerscustoms_AFF_0_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanercustoms_AFF_0",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "25",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_1_0",
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_1_1",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanercustoms_AFF_1_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanercustoms_AFF_1",
+            "index": 1,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_2_0",
+                    "savageRole": [
+                      "arenaFighterEvent"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_2_1",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanercustoms_AFF_2_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanercustoms_AFF_2",
+            "index": 2,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "10",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_3_0",
+                    "savageRole": [
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_3_1",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanercustoms_AFF_3_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanercustoms_AFF_3",
+            "index": 3,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "8",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },			
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_4_0",
+                    "savageRole": [
+                      "followerBully"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_4_1",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanercustoms_AFF_4_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanercustoms_AFF_4",
+            "index": 4,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "6",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_5_0",
+                    "savageRole": [
+                      "sectantPriest"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_5_1",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanercustoms_AFF_5_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanercustoms_AFF_5",
+            "index": 5,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_6_0",
+                    "savageRole": [
+                      "bossBully"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_6_1",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanercustoms_AFF_6_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanercustoms_AFF_6",
+            "index": 6,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_7_0",
+                    "savageRole": [
+                      "followerBigPipe"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_7_1",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanercustoms_AFF_7_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanershoreline_AFF_7",
+            "index": 7,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_8_0",
+                    "savageRole": [
+                      "followerBirdEye"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_8_1",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanercustoms_AFF_8_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanercustoms_AFF_8",
+            "index": 8,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_9_0",
+                    "savageRole": [
+                      "bossKnight"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanercustoms_AFF_9_1",
+                    "target": [
+                      "bigmap"
+                    ]
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanercustoms_AFF_9_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanercustoms_AFF_9",
+            "index": 9,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }			
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanercustoms_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_tarkovcleanerfactory",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+	  ],
+      "Fail": []
+    },
+    "description": "Lotus_tarkovcleanercustoms description",
+    "image": "/files/quest/icon/lotus_tarkovcleanercustoms.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "56f40101d2720b2a4d8b45d6",
+    "name": "Lotus_tarkovcleanercustoms name",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Lotus_tarkovcleanercustoms_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": 26734
+        },	  
+        {
+          "id": "Lotus_tarkovcleanercustoms_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.06"
+        },		
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanercustoms_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanercustoms_reward2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 137651
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanercustoms_reward2_0",
+          "type": "Item",
+          "value": "137651"
+        },
+		{
+          "id": "Lotus_tarkovcleanercustoms_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "mdr762",
+              "_tpl": "5dcbd56fdbd3d91b3e5468d5"
+            },
+    {
+      "_id": "3ce646da1eda70d2545b6a6f",
+      "_tpl": "5dcbd6dddbd3d91b3e5468de",
+      "parentId": "mdr762",
+      "slotId": "mod_pistol_grip"
+    },
+    {
+      "_id": "5b249f2df5e499a8805a70dc",
+      "_tpl": "5a3501acc4a282000d72293a",
+      "parentId": "mdr762",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "c853838d1aad64d909ef489a",
+      "_tpl": "5dcbd6b46ec07c0c4347a564",
+      "parentId": "mdr762",
+      "slotId": "mod_handguard"
+    },
+    {
+      "_id": "a7278e091fd510b7e9e96f9f",
+      "_tpl": "5dcbe9431e1f4616d354987e",
+      "parentId": "mdr762",
+      "slotId": "mod_barrel"
+    },
+    {
+      "_id": "b61c3109b6c81412184ba120",
+      "_tpl": "5b2389515acfc4771e1be0c0",
+      "parentId": "mdr762",
+      "slotId": "mod_scope"
+    },
+    {
+      "_id": "d076fc702fd7483645b53ac9",
+      "_tpl": "5dfa3d7ac41b2312ea33362a",
+      "parentId": "mdr762",
+      "slotId": "mod_sight_rear",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "e46f5e9f616227917efe3c5f",
+      "_tpl": "5b7be4895acfc400170e2dd5",
+      "parentId": "c853838d1aad64d909ef489a",
+      "slotId": "mod_mount_000"
+    },
+    {
+      "_id": "050e9f816e6150f09354205c",
+      "_tpl": "5b7be47f5acfc400170e2dd2",
+      "parentId": "c853838d1aad64d909ef489a",
+      "slotId": "mod_mount_001"
+    },
+    {
+      "_id": "5d9db5fcc4029a2ea96a7ba9",
+      "_tpl": "5b7be47f5acfc400170e2dd2",
+      "parentId": "c853838d1aad64d909ef489a",
+      "slotId": "mod_mount_002"
+    },
+    {
+      "_id": "ee4d1c079c247bf390b66f8a",
+      "_tpl": "5dfa3d950dee1b22f862eae0",
+      "parentId": "c853838d1aad64d909ef489a",
+      "slotId": "mod_sight_front",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "0a66c6fd05a3856e4c47cb89",
+      "_tpl": "612e0d3767085e45ef14057f",
+      "parentId": "a7278e091fd510b7e9e96f9f",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "8e5a95687afa5ee0c36e1937",
+      "_tpl": "5b2388675acfc4771e1be0be",
+      "parentId": "b61c3109b6c81412184ba120",
+      "slotId": "mod_scope_000",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "0cd46326b57c376c0e286522",
+      "_tpl": "57ae0171245977343c27bfcf",
+      "parentId": "b61c3109b6c81412184ba120",
+      "slotId": "mod_scope_002",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "19b1adaa16febbbbdf02bde5",
+      "_tpl": "59fc48e086f77463b1118392",
+      "parentId": "e46f5e9f616227917efe3c5f",
+      "slotId": "mod_foregrip"
+    },
+    {
+      "_id": "45f9f2bf0da8e797f75d2491",
+      "_tpl": "612e0e04568c120fdd294258",
+      "parentId": "0a66c6fd05a3856e4c47cb89",
+      "slotId": "mod_muzzle"
+    }			
+          ],
+          "loyaltyLevel": 3,
+          "target": "mdr762",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_tarkovcleanercustoms startedMessageText",
+    "successMessageText": "Lotus_tarkovcleanercustoms successMessageText",
+    "templateId": "Lotus_tarkovcleanercustoms",
+    "traderId": "lotus",
+    "type": "Elimination"
+  },
+  "Lotus_tarkovcleanerlabs": {
+    "QuestName": "The Tarkov Cleaner - Labs",
+    "_id": "Lotus_tarkovcleanerlabs",
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerlabs_AFF_0_0",
+                    "target": "AnyPmc",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlabs_AFF_0_1",
+                    "target": [
+                      "laboratory"
+                    ]
+                  }
+                }					
+              ],
+              "id": "Lotus_tarkovcleanerlabs_AFF_0_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerlabs_AFF_0",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlabs_AFF_1_0",
+                    "savageRole": [
+                      "pmcBot"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                },
+                {
+                  "_parent": "Location",
+                  "_props": {
+                    "dynamicLocale": false,
+                    "id": "Lotus_tarkovcleanerlabs_AFF_1_1",
+                    "target": [
+                      "laboratory"
+                    ]
+                  }
+                }				
+              ],
+              "id": "Lotus_tarkovcleanerlabs_AFF_1_2"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerlabs_AFF_1",
+            "index": 1,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerlabs_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_tarkovcleanercustoms",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerlabs_start1",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_terragroup1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_tarkovcleanerlabs description",
+    "image": "/files/quest/icon/lotus_tarkovcleanerlabs.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5b0fc42d86f7744a585f9105",
+    "name": "Lotus_tarkovcleanerlabs name",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Lotus_tarkovcleanerlabs_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": 24518
+        },
+        {
+          "id": "Lotus_tarkovcleanerlabs_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.03"
+        },		
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerlabs_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanerlabs_reward2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 135123
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanerlabs_reward2_0",
+          "type": "Item",
+          "value": "135123"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerlabs_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanerlabs_reward3_0",
+              "_tpl": "59e3639286f7741777737013",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanerlabs_reward3_0",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerlabs_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanerlabs_reward4_0",
+              "_tpl": "5d03784a86f774203e7e0c4d",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanerlabs_reward4_0",
+          "type": "Item",
+          "value": "3"
+        },		
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerlabs_reward5",
+          "index": 5,
+          "items": [
+            {
+              "_id": "d6e6edb9e630a0bdba54074d",
+              "_tpl": "5b0bbe4e5acfc40dc528a72d",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+    {
+      "_id": "9a749df8ccb0d7dd144b2fbe",
+      "_tpl": "5b7d679f5acfc4001a5c4024",
+      "parentId": "d6e6edb9e630a0bdba54074d",
+      "slotId": "mod_pistol_grip"
+    },
+    {
+      "_id": "dc0294f6d2c05294fc061868",
+      "_tpl": "5b7d37845acfc400170e2f87",
+      "parentId": "d6e6edb9e630a0bdba54074d",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "def0c248a7bb8b5f0089316d",
+      "_tpl": "5b7be2345acfc400196d524a",
+      "parentId": "d6e6edb9e630a0bdba54074d",
+      "slotId": "mod_handguard"
+    },
+    {
+      "_id": "bc32f4e328941d16d2f6ea46",
+      "_tpl": "5b7be1265acfc400161d0798",
+      "parentId": "d6e6edb9e630a0bdba54074d",
+      "slotId": "mod_barrel"
+    },
+    {
+      "_id": "b00cfe0d8431fdaf3b5e1058",
+      "_tpl": "5b0bc22d5acfc47a8607f085",
+      "parentId": "d6e6edb9e630a0bdba54074d",
+      "slotId": "mod_sight_rear",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "64fa752b1f5ebfb10242bec3",
+      "_tpl": "5b099bb25acfc400186331e8",
+      "parentId": "d6e6edb9e630a0bdba54074d",
+      "slotId": "mod_reciever"
+    },
+    {
+      "_id": "b0b52c0552f12a222f111c9a",
+      "_tpl": "5b099bf25acfc4001637e683",
+      "parentId": "d6e6edb9e630a0bdba54074d",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "0faee92e65046911997e3253",
+      "_tpl": "5a9d6d13a2750c00164f6b03",
+      "parentId": "def0c248a7bb8b5f0089316d",
+      "slotId": "mod_mount_000"
+    },
+    {
+      "_id": "7cd6a658a9fa24b401a48a1e",
+      "_tpl": "5a9d6d00a2750c5c985b5305",
+      "parentId": "def0c248a7bb8b5f0089316d",
+      "slotId": "mod_mount_002"
+    },
+    {
+      "_id": "c6f893eabaaa6f3bea35e445",
+      "_tpl": "5a9d6d00a2750c5c985b5305",
+      "parentId": "def0c248a7bb8b5f0089316d",
+      "slotId": "mod_mount_003"
+    },
+    {
+      "_id": "43187fb87714c3e429680fd1",
+      "_tpl": "5b099b7d5acfc400186331e4",
+      "parentId": "bc32f4e328941d16d2f6ea46",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "b6ca66304e7000b1f7d7330e",
+      "_tpl": "60a23797a37c940de7062d02",
+      "parentId": "64fa752b1f5ebfb10242bec3",
+      "slotId": "mod_scope",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "16650601f59a784231d963ef",
+      "_tpl": "5649be884bdc2d79388b4577",
+      "parentId": "b0b52c0552f12a222f111c9a",
+      "slotId": "mod_stock_000"
+    },
+    {
+      "_id": "78f5fb317f965657175181a7",
+      "_tpl": "588226ef24597767af46e39c",
+      "parentId": "0faee92e65046911997e3253",
+      "slotId": "mod_foregrip"
+    },
+    {
+      "_id": "5568a95e484949fc46350d90",
+      "_tpl": "58d2947686f774485c6a1ee5",
+      "parentId": "16650601f59a784231d963ef",
+      "slotId": "mod_stock_000"
+    },
+    {
+      "_id": "eb3980472f860890c64dfa51",
+      "_tpl": "58d2912286f7744e27117493",
+      "parentId": "5568a95e484949fc46350d90",
+      "slotId": "mod_stock"
+    }			
+          ],
+          "target": "d6e6edb9e630a0bdba54074d",
+          "type": "Item",
+          "value": "1"
+        }		
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_tarkovcleanerlabs startedMessageText",
+    "successMessageText": "Lotus_tarkovcleanerlabs successMessageText",
+    "templateId": "Lotus_tarkovcleanerlabs",
+    "traderId": "lotus",
+    "type": "Elimination"
+  },
+  "Lotus_tarkovcleanerfinale": {
+    "QuestName": "The Tarkov Cleaner - Finale",
+    "_id": "Lotus_tarkovcleanerfinale",
+    "canShowNotificationsInGame": true,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_0_0",
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_0_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_0",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "80",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_1_0",
+                    "target": "AnyPmc",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_1_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_1",
+            "index": 1,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "50",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_2_0",
+                    "savageRole": [
+                      "followerGluharAssault",
+                      "followerGluharScout",
+                      "followerGluharSecurity",
+                      "followerBoar",
+					  "followerBully",
+					  "followerSanitar",
+					  "followerKojaniy"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_2_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_2",
+            "index": 2,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "35",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_3_0",
+                    "savageRole": [
+                      "pmcBot"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_3_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_3",
+            "index": 3,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "25",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_4_0",
+                    "savageRole": [
+                      "arenaFighterEvent"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_4_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_4",
+            "index": 4,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "20",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_5_0",
+                    "savageRole": [
+                      "exUsec"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_5_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_5",
+            "index": 5,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "15",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_6_0",
+                    "savageRole": [
+                      "sectantWarrior"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_6_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_6",
+            "index": 6,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "15",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_7_0",
+                    "savageRole": [
+                      "sectantPriest"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_7_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_7",
+            "index": 7,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_8_0",
+                    "savageRole": [
+                      "bossTagilla"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_8_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_8",
+            "index": 8,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_9_0",
+                    "savageRole": [
+                      "bossKilla"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_9_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_9",
+            "index": 9,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_10_0",
+                    "savageRole": [
+                      "bossBully"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_10_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_10",
+            "index": 10,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_11_0",
+                    "savageRole": [
+                      "bossSanitar"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_11_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_11",
+            "index": 11,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_12_0",
+                    "savageRole": [
+                      "bossKojaniy"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_12_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_12",
+            "index": 11,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_13_0",
+                    "savageRole": [
+                      "bossGluhar"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_13_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_13",
+            "index": 13,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_14_0",
+                    "savageRole": [
+                      "bossBoar"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_14_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_14",
+            "index": 14,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_15_0",
+                    "savageRole": [
+                      "bossKnight"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_15_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_15",
+            "index": 15,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_16_0",
+                    "savageRole": [
+                      "followerBirdEye"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_16_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_16",
+            "index": 16,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "CounterCreator",
+          "_props": {
+            "counter": {
+              "conditions": [
+                {
+                  "_parent": "Kills",
+                  "_props": {
+                    "compareMethod": ">=",
+                    "id": "Lotus_tarkovcleanerfinale_AFF_17_0",
+                    "savageRole": [
+                      "followerBigPipe"
+                    ],
+                    "target": "Savage",
+                    "value": "1"
+                  }
+                }
+              ],
+              "id": "Lotus_tarkovcleanerfinale_AFF_17_1"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_AFF_17",
+            "index": 17,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Elimination",
+            "value": "1",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }			
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_tarkovcleanerlabs",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_start1",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_tarkovcleanershoreline",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_tarkovcleanerfinale_start2",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_tarkovcleanerlighthouse",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_tarkovcleanerfinale description",
+    "image": "/files/quest/icon/lotus_tarkovcleaner.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Lotus_tarkovcleanerfinale name",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Lotus_tarkovcleanerfinale_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": 172650
+        },
+        {
+          "id": "Lotus_tarkovcleanerfinale_reward1",
+          "index": 1,
+          "target": "lotus",
+          "type": "TraderStanding",
+          "value": "0.12"
+        },		
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerfinale_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Lotus_tarkovcleanerfinale_reward2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 478563
+              }
+            }
+          ],
+          "target": "Lotus_tarkovcleanerfinale_reward2_0",
+          "type": "Item",
+          "value": "478563"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerfinale_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "37317ad83f9431069a95ad73",
+              "_tpl": "5ac66cb05acfc40198510a10",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+    {
+      "_id": "f8a64132bc6083835c2f9969",
+      "_tpl": "5d4aab30a4b9365435358c55",
+      "parentId": "37317ad83f9431069a95ad73",
+      "slotId": "mod_gas_block"
+    },
+    {
+      "_id": "cd46f8a5862671b858db14fe",
+      "_tpl": "5e21ca18e4d47f0da15e77dd",
+      "parentId": "37317ad83f9431069a95ad73",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "834ff55c145084e4b4f380dd",
+      "_tpl": "5beec8ea0db834001a6f9dbf",
+      "parentId": "37317ad83f9431069a95ad73",
+      "slotId": "mod_pistol_grip"
+    },
+    {
+      "_id": "8acf1cf8581e10ba9d29b110",
+      "_tpl": "5d2c770c48f0354b4a07c100",
+      "parentId": "37317ad83f9431069a95ad73",
+      "slotId": "mod_reciever"
+    },
+    {
+      "_id": "54ab5b98c346d130cb8279bd",
+      "_tpl": "628a7b23b0f75035732dd565",
+      "parentId": "37317ad83f9431069a95ad73",
+      "slotId": "mod_sight_rear",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "0b0273bbf0d661fc8d1b6831",
+      "_tpl": "649ec87d8007560a9001ab36",
+      "parentId": "37317ad83f9431069a95ad73",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "71ec36140e8d4cfb805ac155",
+      "_tpl": "5ac66c5d5acfc4001718d314",
+      "parentId": "37317ad83f9431069a95ad73",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "6494ff30ca390b331309c88a",
+      "_tpl": "6130ca3fd92c473c77020dbd",
+      "parentId": "37317ad83f9431069a95ad73",
+      "slotId": "mod_charge"
+    },
+    {
+      "_id": "93df6a694ab2614070cd1078",
+      "_tpl": "63ac5c9658d0485fc039f0b8",
+      "parentId": "cd46f8a5862671b858db14fe",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "2d5794ebcc4828d5d5146e7b",
+      "_tpl": "570fd721d2720bc5458b4596",
+      "parentId": "8acf1cf8581e10ba9d29b110",
+      "slotId": "mod_scope",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "d11648b211d6ea1632c2832a",
+      "_tpl": "58d2947e86f77447aa070d53",
+      "parentId": "0b0273bbf0d661fc8d1b6831",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "5694d4a5470125bb188bd978",
+      "_tpl": "58d2912286f7744e27117493",
+      "parentId": "d11648b211d6ea1632c2832a",
+      "slotId": "mod_stock"
+    }			
+          ],
+          "target": "37317ad83f9431069a95ad73",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_tarkovcleanerfinale_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "e937c36684650aa45d53ef2d",
+              "_tpl": "59984ab886f7743e98271174",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+    {
+      "_id": "8ec22719c56db63199b461fc",
+      "_tpl": "5cf50fc5d7f00c056c53f83c",
+      "parentId": "e937c36684650aa45d53ef2d",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "4e0cade0150e749c751c1295",
+      "_tpl": "599860ac86f77436b225ed1a",
+      "parentId": "e937c36684650aa45d53ef2d",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "484338cfc05b744e6849ace9",
+      "_tpl": "59bffc1f86f77435b128b872",
+      "parentId": "e937c36684650aa45d53ef2d",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "e1d884497b0139b169699a3d",
+      "_tpl": "59985a6c86f77414ec448d17",
+      "parentId": "e937c36684650aa45d53ef2d",
+      "slotId": "mod_reciever"
+    },
+    {
+      "_id": "a117e2e95885c6bc21f1ba81",
+      "_tpl": "599860e986f7743bb57573a6",
+      "parentId": "e937c36684650aa45d53ef2d",
+      "slotId": "mod_sight_rear",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "bd6ef30bf43fdd19befbe3c0",
+      "_tpl": "59ccd11386f77428f24a488f",
+      "parentId": "e937c36684650aa45d53ef2d",
+      "slotId": "mod_gas_block"
+    },
+    {
+      "_id": "90c2c5e3cd0d8ff3a78040ac",
+      "_tpl": "5beec8c20db834001d2c465c",
+      "parentId": "8ec22719c56db63199b461fc",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "9d9b6dbb1559b273001432b6",
+      "_tpl": "59bffbb386f77435b379b9c2",
+      "parentId": "484338cfc05b744e6849ace9",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "0700d18df081c90e85053933",
+      "_tpl": "57adff4f24597737f373b6e6",
+      "parentId": "e1d884497b0139b169699a3d",
+      "slotId": "mod_scope",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "30b042108089f7c7170c4b16",
+      "_tpl": "57cff947245977638e6f2a19",
+      "parentId": "bd6ef30bf43fdd19befbe3c0",
+      "slotId": "mod_handguard"
+    },
+    {
+      "_id": "5c9776708412c1dd08ade62a",
+      "_tpl": "5a33b2c9c4a282000c5a9511",
+      "parentId": "0700d18df081c90e85053933",
+      "slotId": "mod_scope"
+    },
+    {
+      "_id": "ccadcd2e4c364e37fd6c6877",
+      "_tpl": "5a32aa8bc4a2826c6e06d737",
+      "parentId": "5c9776708412c1dd08ade62a",
+      "slotId": "mod_scope",
+      "upd": {
+        "Sight": {
+          "ScopesCurrentCalibPointIndexes": [
+            0
+          ],
+          "ScopesSelectedModes": [
+            0
+          ],
+          "SelectedScope": 0
+        }
+      }
+    },
+    {
+      "_id": "c3d350fca636b6027d44e5b5",
+      "_tpl": "5b7be47f5acfc400170e2dd2",
+      "parentId": "30b042108089f7c7170c4b16",
+      "slotId": "mod_mount_000"
+    },
+    {
+      "_id": "1c8fca55f7e5c768ec207b3e",
+      "_tpl": "644a3df63b0b6f03e101e065",
+      "parentId": "c3d350fca636b6027d44e5b5",
+      "slotId": "mod_tactical"
+        }			
+          ],
+          "target": "e937c36684650aa45d53ef2d",
+          "type": "Item",
+          "value": "1"
+        }	
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Lotus_tarkovcleanerfinale startedMessageText",
+    "successMessageText": "Lotus_tarkovcleanerfinale successMessageText",
+    "templateId": "Lotus_tarkovcleanerfinale",
+    "traderId": "lotus",
+    "type": "Elimination"
+  }
+}

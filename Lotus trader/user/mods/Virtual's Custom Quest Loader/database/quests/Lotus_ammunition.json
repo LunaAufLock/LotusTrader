@@ -1,0 +1,1998 @@
+{
+	"Lotus_ammo45": {
+    "QuestName": "Ammunation basics - .45 ACP",
+    "_id": "Lotus_ammo45",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo45_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5efb0cabfb3e451d70735af5"
+            ],
+            "value": "200",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		}
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo45_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_akcollector2",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_ammo45 description",
+    "image": "/files/quest/icon/lotus_ammunitionbasics45acp.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "traderId": "lotus",	
+    "name": "Lotus_ammo45 name",
+    "note": "0",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "Lotus_ammo45_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "21046"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_ammo45_reward1",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Lotus_ammo45_reward1_0",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 243
+              }
+            }
+          ],
+          "target": "Lotus_ammo45_reward1_0",
+          "type": "Item",
+          "value": "243"
+        },		
+		{
+          "id": "Lotus_ammo45_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "45acpap",
+              "_tpl": "5efb0cabfb3e451d70735af5"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "45acpap",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo45_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "45acpappack",
+              "_tpl": "6489879db5a2df1c815a04ef"
+            }
+          ],
+          "loyaltyLevel": 1,
+          "target": "45acpappack",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "side": "Pmc",
+    "successMessageText": "Lotus_ammo45 successMessagetext"		
+},		
+	"Lotus_ammo12g": {
+    "QuestName": "Ammunation basics - 12/70",
+    "_id": "Lotus_ammo12g",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo12g_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "64b8ee384b75259c590fa89b"
+            ],
+            "value": "120",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+		        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo12g_AFF_1",
+            "index": 1,
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5d6e6911a4b9361bd5780d52"
+            ],
+            "value": "120",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+		        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo12g_AFF_2",
+            "index": 2,
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5d6e68a8a4b9360b6c0d54e2"
+            ],
+            "value": "120",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		}
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo12g_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo45",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_ammo12g description",
+    "image": "/files/quest/icon/lotus_ammunitionbasics12g.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "traderId": "lotus",	
+    "name": "Lotus_ammo12g name",
+    "note": "0",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "Lotus_ammo12_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "21046"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_ammo12_reward1",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Lotus_ammo12_reward1_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 29810
+              }
+            }
+          ],
+          "target": "Lotus_ammo12_reward1_0",
+          "type": "Item",
+          "value": "29810"
+        },		
+		{
+          "id": "Lotus_ammo12g_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "12gpira",
+              "_tpl": "64b8ee384b75259c590fa89b"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "12gpira",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo12g_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "12gflech",
+              "_tpl": "5d6e6911a4b9361bd5780d52"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "12gflech",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo12g_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "12gap20",
+              "_tpl": "5d6e68a8a4b9360b6c0d54e2"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "12gap20",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "side": "Pmc",
+	"successMessageText": "Lotus_ammo12g successMessagetext"	
+},
+	"Lotus_ammo46x30": {
+    "QuestName": "Ammunation basics - 4.6x30",
+    "_id": "Lotus_ammo46x30",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo46x30_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5ba26835d4351e0035628ff5"
+            ],
+            "value": "120",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+		        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo46x30_AFF_1",
+            "index": 1,
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5ba2678ad4351e44f824b344"
+            ],
+            "value": "175",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+		        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo46x30_AFF_2",
+            "index": 2,
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "64b6979341772715af0f9c39"
+            ],
+            "value": "320",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		}
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo46x30_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo12g",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_ammo46x30 description",
+    "image": "/files/quest/icon/lotus_ammunitionbasics46x30.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "traderId": "lotus",	
+    "name": "Lotus_ammo46x30 name",
+    "note": "0",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "lotus_ammo46x30_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "18971"
+        },
+        {
+          "findInRaid": false,
+          "id": "lotus_ammo46x30_reward1",
+          "index": 2,
+          "items": [
+            {
+              "_id": "lotus_ammo46x30_reward1_0",
+              "_tpl": "569668774bdc2da2298b4568",
+              "upd": {
+                "StackObjectsCount": 316
+              }
+            }
+          ],
+          "target": "lotus_ammo46x30_reward1_0",
+          "type": "Item",
+          "value": "316"
+        },			
+		{
+          "id": "lotus_ammo46x30_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "46x30ap",
+              "_tpl": "5ba26835d4351e0035628ff5"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "46x30ap",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "lotus_ammo46x30_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "46x30fmj",
+              "_tpl": "5ba2678ad4351e44f824b344"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "46x30fmj",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "lotus_ammo46x30_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "46x30jsp",
+              "_tpl": "64b6979341772715af0f9c39"
+            }
+          ],
+          "loyaltyLevel": 1,
+          "target": "46x30jsp",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "side": "Pmc",
+    "successMessageText": "Lotus_ammo46x30 successMessagetext"		
+},
+	"Lotus_ammo9x39": {
+    "QuestName": "Ammunation basics - 9x39mm",
+    "_id": "Lotus_ammo9x39",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo9x39_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5c0d668f86f7747ccb7f13b2"
+            ],
+            "value": "200",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+		        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo9x39_AFF_1",
+            "index": 1,
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "61962d879bb3d20b0946d385"
+            ],
+            "value": "150",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+		        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo9x39_AFF_2",
+            "index": 2,
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "57a0e5022459774d1673f889"
+            ],
+            "value": "100",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		}
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo9x39_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo46x30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo9x39_start1",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo57x28",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }			
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_ammo9x39 description",
+    "image": "/files/quest/icon/lotus_ammunitionbasics9x39.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "traderId": "lotus",	
+    "name": "Lotus_ammo9x39 name",
+    "note": "0",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "Lotus_ammo9x39_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "18971"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_ammo9x39_reward1",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Lotus_ammo9x39_reward1_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 21983
+              }
+            }
+          ],
+          "target": "Lotus_ammo9x39_reward1_0",
+          "type": "Item",
+          "value": "21983"
+        },			
+		{
+          "id": "Lotus_ammo9x39_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "9x39spp",
+              "_tpl": "5c0d668f86f7747ccb7f13b2"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "9x39spp",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo9x39_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "9x39pab9",
+              "_tpl": "61962d879bb3d20b0946d385"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "9x39pab9",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo9x39_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "9x39sp6",
+              "_tpl": "57a0e5022459774d1673f889"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "9x39sp6",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "side": "Pmc",
+    "successMessageText": "Lotus_ammo9x39 successMessagetext"	
+},
+	"Lotus_ammo300blk": {
+    "QuestName": "Ammunation basics - .300 Blackout",
+    "_id": "Lotus_ammo300blk",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo300blk_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "64b8725c4b75259c590fa899"
+            ],
+            "value": "300",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+		        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo300blk_AFF_1",
+            "index": 1,
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5fd20ff893a8961fc660a954"
+            ],
+            "value": "175",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		}
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo300blk_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo46x30",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo300blk_start1",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo57x28",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }			
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_ammo300blk description",
+    "image": "/files/quest/icon/lotus_ammunitionbasics300blk.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "traderId": "lotus",	
+    "name": "Lotus_ammo300blk name",
+    "note": "0",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "Lotus_ammo300blk_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "18971"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_ammo300blk_reward1",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Lotus_ammo300blk_reward1_0",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 420
+              }
+            }
+          ],
+          "target": "Lotus_ammo300blk_reward1_0",
+          "type": "Item",
+          "value": "420"
+        },			
+		{
+          "id": "Lotus_ammo300blk_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "300blkcbj",
+              "_tpl": "64b8725c4b75259c590fa899"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "300blkcbj",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo300blk_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "300blkap",
+              "_tpl": "5fd20ff893a8961fc660a954"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "300blkap",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "side": "Pmc",
+    "successMessageText": "Lotus_ammo300blk successMessagetext"	
+  },
+	"Lotus_ammo57x28": {
+    "QuestName": "Ammunation basics - 5.7x28mm",
+    "_id": "Lotus_ammo57x28",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",
+    "conditions": {
+      "AvailableForFinish": [
+		{
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo57x28_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5cc80f38e4a949001152b560"
+            ],
+            "value": "350",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		}
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo57x28_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo12g",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_ammo57x28 description",
+    "image": "/files/quest/icon/lotus_ammunitionbasics57x28.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "traderId": "lotus",	
+    "name": "Lotus_ammo57x28 name",
+    "note": "0",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "Lotus_ammo57x28_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "13290"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_ammo57x28_reward1",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Lotus_ammo57x28_reward1_0",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 307
+              }
+            }
+          ],
+          "target": "Lotus_ammo57x28_reward1_0",
+          "type": "Item",
+          "value": "307"
+        },			
+		{
+          "id": "Lotus_ammo57x28_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "57x28ss190",
+              "_tpl": "5cc80f38e4a949001152b560"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "57x28ss190",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo57x28_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "57x28ss190pack",
+              "_tpl": "648986bbc827d4637f01791e"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "57x28ss190pack",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "side": "Pmc",
+    "successMessageText": "Lotus_ammo57x28 successMessagetext"	
+},
+	"Lotus_ammo545x39": {
+    "QuestName": "Ammunation basics - 5.45x39",
+    "_id": "Lotus_ammo545x39",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo545x39_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "56dff061d2720bb5668b4567"
+            ],
+            "value": "150",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+		        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo545x39_AFF_1",
+            "index": 1,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "56dff026d2720bb8668b4567"
+            ],
+            "value": "120",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+       {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo545x39_AFF_2",
+            "index": 2,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5c0d5e4486f77478390952fe"
+            ],
+            "value": "100",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+       {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo545x39_AFF_3",
+            "index": 3,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "61962b617c6c7b169525f168"
+            ],
+            "value": "60",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		}		
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo545x39_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo9x39",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },	  
+    "description": "Lotus_ammo545x39 description",
+    "image": "/files/quest/icon/lotus_ammunitionbasics545x39.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "traderId": "lotus",	
+    "name": "Lotus_ammo545x39 name",
+    "note": "0",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "Lotus_ammo545x39_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "21972"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_ammo545x39_reward1",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Lotus_ammo545x39_reward1_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 15902
+              }
+            }
+          ],
+          "target": "Lotus_ammo545x39_reward1_0",
+          "type": "Item",
+          "value": "37904"
+        },			
+		{
+          "id": "Lotus_ammo545x39_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "545x39bt",
+              "_tpl": "56dff061d2720bb5668b4567"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "545x39bt",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo545x39_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "545x39bs",
+              "_tpl": "56dff026d2720bb8668b4567"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "545x39bs",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo545x39_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "545x39ppbs",
+              "_tpl": "5c0d5e4486f77478390952fe"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "545x39ppbs",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo545x39_reward5",
+          "index": 5,
+          "items": [
+            {
+              "_id": "545x397n40",
+              "_tpl": "61962b617c6c7b169525f168"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "545x397n40",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "side": "Pmc",
+    "successMessageText": "Lotus_ammo545x39 successMessagetext"
+},
+	"Lotus_ammo556x45": {
+    "QuestName": "Ammunation basics - 5.56x45",
+    "_id": "Lotus_ammo556x45",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo556x45_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "54527ac44bdc2d36668b4567"
+            ],
+            "value": "260",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+		        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo556x45_AFF_1",
+            "index": 1,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "59e690b686f7746c9f75e848"
+            ],
+            "value": "120",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		}		
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": true,
+            "id": "Lotus_ammo556x45_start1",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo300blk",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }			
+      ],
+      "Fail": []
+    },	  
+    "description": "Lotus_ammo556x45 description",
+    "image": "/files/quest/icon/lotus_ammunitionbasics556x45.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "traderId": "lotus",	
+    "name": "Lotus_ammo556x45 name",
+    "note": "0",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "Lotus_ammo556x45_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "12641"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_ammo556x45_reward1",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Lotus_ammo556x45_reward1_0",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 398
+              }
+            }
+          ],
+          "target": "Lotus_ammo556x45_reward1_0",
+          "type": "Item",
+          "value": "398"
+        },			
+		{
+          "id": "Lotus_ammo556x45_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "556x45m855a1",
+              "_tpl": "54527ac44bdc2d36668b4567"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "556x45m855a1",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo556x45_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "556x45m995",
+              "_tpl": "59e690b686f7746c9f75e848"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "556x45m995",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "side": "Pmc",
+    "successMessageText": "Lotus_ammo556x45 successMessagetext"
+},
+	"Lotus_ammo762x39": {
+    "QuestName": "Ammunation basics - 7.62x39",
+    "_id": "Lotus_ammo762x39",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo762x39_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "64b7af434b75259c590fa893"
+            ],
+            "value": "260",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+		        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo762x39_AFF_1",
+            "index": 1,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "59e0d99486f7744a32234762"
+            ],
+            "value": "200",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		}		
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo762x39_start1",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo9x39",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }			
+      ],
+      "Fail": []
+    },	  
+    "description": "Lotus_ammo762x39 description",
+    "image": "/files/quest/icon/lotus_ammunitionbasics762x39.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "traderId": "lotus",	
+    "name": "Lotus_ammo762x39 name",
+    "note": "0",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "Lotus_ammo762x39_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "19820"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_ammo762x39_reward1",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Lotus_ammo762x39_reward1_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 21994
+              }
+            }
+          ],
+          "target": "Lotus_ammo762x39_reward1_0",
+          "type": "Item",
+          "value": "21994"
+        },			
+		{
+          "id": "Lotus_ammo762x39_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "762x39pp",
+              "_tpl": "64b7af434b75259c590fa893"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "762x39pp",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo762x39_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "762x39bp",
+              "_tpl": "59e0d99486f7744a32234762"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "762x39bp",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "side": "Pmc",
+    "successMessageText": "Lotus_ammo762x39 successMessagetext"	
+  },
+ 	"Lotus_ammo762x54r": {
+    "QuestName": "Ammunation basics - 7.62x54r",
+    "_id": "Lotus_ammo762x54r",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo762x54r_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "59e77a2386f7742ee578960a"
+            ],
+            "value": "100",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+		        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo762x54r_AFF_1",
+            "index": 1,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "560d61e84bdc2da74d8b4571"
+            ],
+            "value": "80",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo762x54r_AFF_2",
+            "index": 2,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5e023d34e8a400319a28ed44"
+            ],
+            "value": "60",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo762x54r_AFF_3",
+            "index": 3,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5e023d48186a883be655e551"
+            ],
+            "value": "40",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		}		
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo762x54r_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo762x39",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_ammo762x54r description",
+    "image": "/files/quest/icon/lotus_ammunitionbasics762x54r.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "traderId": "lotus",	
+    "name": "Lotus_ammo762x54r name",
+    "note": "0",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "Lotus_ammo762x54r_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "33692"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_ammo762x54r_reward1",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Lotus_ammo762x54r_reward1_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 50730
+              }
+            }
+          ],
+          "target": "Lotus_ammo762x54r_reward1_0",
+          "type": "Item",
+          "value": "50730"
+        },		
+		{
+          "id": "Lotus_ammo762x54r_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "762x54rps",
+              "_tpl": "59e77a2386f7742ee578960a"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "762x54rps",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo762x54r_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "762x54rsnb",
+              "_tpl": "560d61e84bdc2da74d8b4571"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "762x54rsnb",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "side": "Pmc",
+    "successMessageText": "Lotus_ammo762x54r successMessagetext"		
+}, 
+	"Lotus_ammo762x51": {
+    "QuestName": "Ammunation basics - 7.62x51",
+    "_id": "Lotus_ammo762x51",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo762x51_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5a608bf24f39f98ffc77720e"
+            ],
+            "value": "180",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+		        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo762x51_AFF_1",
+            "index": 1,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5a6086ea4f39f99cd479502f"
+            ],
+            "value": "120",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		},
+       {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo762x51_AFF_2",
+            "index": 2,
+            "isEncoded": false,
+            "onlyFoundInRaid": true,
+            "parentId": "",
+            "target": [
+              "5efb0c1bd79ff02a1f5e68d9"
+            ],
+            "value": "60",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		}
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo762x51_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo762x39",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }
+      ],
+      "Fail": []
+    },	  
+    "description": "Lotus_ammo762x51 description",
+    "image": "/files/quest/icon/lotus_ammunitionbasics762x51.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "traderId": "lotus",	
+    "name": "Lotus_ammo762x51 name",
+    "note": "0",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "Lotus_ammo762x51_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "39032"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_ammo762x51_reward1",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Lotus_ammo762x51_reward1_0",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 652
+              }
+            }
+          ],
+          "target": "Lotus_ammo762x51_reward1_0",
+          "type": "Item",
+          "value": "652"
+        },			
+		{
+          "id": "Lotus_ammo762x51_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "762x51m80",
+              "_tpl": "58dd3ad986f77403051cba8f"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "762x51m80",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo762x51_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "762x51m62",
+              "_tpl": "5a608bf24f39f98ffc77720e"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "762x51m62",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo762x51_reward4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "762x51m61",
+              "_tpl": "5a6086ea4f39f99cd479502f"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "762x51m61",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammo762x51_reward5",
+          "index": 5,
+          "items": [
+            {
+              "_id": "762x51m993pack",
+              "_tpl": "648984e3f09d032aa9399d53"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "762x51m993pack",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "side": "Pmc",
+    "successMessageText": "Lotus_ammo762x51 successMessagetext"
+},
+	"Lotus_ammo127": {
+    "QuestName": "Ammunation basics - 12.7x55",
+    "_id": "Lotus_ammo127",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo127_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5cadf6eeae921500134b2799"
+            ],
+            "value": "200",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		}
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo127_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo762x51",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammo127_start1",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo762x54r",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_ammo127 description",
+    "image": "/files/quest/icon/lotus_ammunitionbasicsps12.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "traderId": "lotus",	
+    "name": "Lotus_ammo127 name",
+    "note": "0",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "Lotus_ammo127_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "19230"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_ammo127_reward1",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Lotus_ammo127_reward1_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 70024
+              }
+            }
+          ],
+          "target": "Lotus_ammo127_reward1_0",
+          "type": "Item",
+          "value": "70024"
+        },		
+		{
+          "id": "Lotus_ammo127_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "127x55ps12b",
+              "_tpl": "5cadf6eeae921500134b2799"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "127x55ps12b",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }	
+      ]
+    },
+    "side": "Pmc",
+    "successMessageText": "Lotus_ammo127 successMessagetext"		
+},
+	"Lotus_ammolapua": {
+    "QuestName": "Ammunation basics - .338 Lapua",
+    "_id": "Lotus_ammolapua",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "_parent": "HandoverItem",
+          "_props": {
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammolapua_AFF_0",
+            "index": 0,
+            "isEncoded": false,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+              "5fc382a9d724d907e2077dab"
+            ],
+            "value": "75",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+		}
+      ],
+      "AvailableForStart": [
+        {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammolapua_start0",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo762x51",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },
+       {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammolapua_start1",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo127",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        },			
+       {
+          "_parent": "Quest",
+          "_props": {
+            "availableAfter": 0,
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "id": "Lotus_ammolapua_start2",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Lotus_ammo762x54r",
+            "visibilityConditions": []
+          },
+          "dynamicLocale": false
+        }		
+      ],
+      "Fail": []
+    },
+    "description": "Lotus_ammolapua description",
+    "image": "/files/quest/icon/lotus_ammunitionbasics338lapua.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "traderId": "lotus",	
+    "name": "Lotus_ammolapua name",
+    "note": "0",
+    "questStatus": {},
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+       {
+          "id": "Lotus_ammolapua_reward0",
+          "index": 0,
+          "type": "Experience",
+          "value": "31194"
+        },
+        {
+          "findInRaid": false,
+          "id": "Lotus_ammolapua_reward1",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Lotus_ammolapua_reward1_0",
+              "_tpl": "5696686a4bdc2da3298b456a",
+              "upd": {
+                "StackObjectsCount": 1283
+              }
+            }
+          ],
+          "target": "Lotus_ammolapua_reward1_0",
+          "type": "Item",
+          "value": "1283"
+        },		
+		{
+          "id": "Lotus_ammolapua_reward2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "lapuaap",
+              "_tpl": "5fc382a9d724d907e2077dab"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "lapuaap",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        },
+		{
+          "id": "Lotus_ammolapua_reward3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "lapuaappack",
+              "_tpl": "6489848173c462723909a14b"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "lapuaappack",
+          "traderId": "lotus",
+          "type": "AssortmentUnlock"
+        }		
+      ]
+    },
+    "side": "Pmc",
+    "successMessageText": "Lotus_ammolapua successMessagetext"		
+  }  
+} 
